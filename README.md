@@ -150,3 +150,24 @@ Desktop >992px
 
 Small Devices <992px 
 * The section is positioned below the hero image otherwise it would cover too much of the image 
+
+### Location Section 
+
+Desktop Screens 
+
+* The locations are listed as individual rectangular sections horizontally across the width of the screen 
+* The sections provide an address for each store 
+* Each section links the user to the contact us page where all four pins are visible on the map 
+
+Tablet Screens 
+
+* These sections are listed in two rows 
+
+Phone Screens 
+
+* Content is all listed vertically 
+
+### Contact Section 
+
+
+
