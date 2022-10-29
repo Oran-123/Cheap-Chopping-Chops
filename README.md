@@ -111,10 +111,30 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 
 I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the desktop version of the wireframes and then scalled it up down for both tablet and mobile versions. 
 
-Because a requirement is to encourage booking enquires two CTAs are included in the intial section. Furthermore, because this is a one-page website the user is forced to scroll through all of the site content before they reach the booking form at the bottom of the page. 
+Because it is both a requirement and a site owner goal  to encourage booking enquires I have added two CTAs in the intial sections of the site. Furthermore, because this is a one-page website the user is forced to scroll through all of the site content before they reach the booking form at the bottom of the page. Therfore, they are more likely to make a booking after consuming all of the information on the site.  
 
 The wireframes are below:
 
 ### [Desktop Wireframe](assets/css/wireframes/Desktop.pdf "Desktop wireframe")
 ### [Tablet Wireframe](assets/css/wireframes/Tablet.pdf "Tablet wireframe")
 ### [Phone Wireframe](assets/css/wireframes/Phone.pdf "Phone wireframe")
+
+# Features 
+
+## Existing Features 
+
+### Navigation Bar 
+
+The navigation bar includes a logo which will have an embedded link to the home page, and a menu for users to navigate throughout the site. 
+The navigation bar will be fixed so it is always visible on screen. The navigation bar will be fully responsive on different screen sizes. 
+
+Large Screens and up
+
+* Full width of the screen with the menu items aligned to the right of the screen (Home, Price, Styles and Contact Us)
+* A line will be visible on hover so that it is clear to the user which link they are going to click 
+* To help the user identify which page they are currently on the text for that page will change colour 
+
+Medium to X-Small
+
+* A hamburger menu will replace the listed menu items on smaller screens to optimize screen space 
+* The menu items will be visible after the hamburger menus is expanded by a user clicking it 
