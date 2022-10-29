@@ -35,7 +35,9 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 * Promote the different stores 
 * Increase the search ranking on search engines
 
-# Requirements 
+# Requirements and Expectations 
+
+## Requirments 
 
 * Easy to navigate on different screen sizes
 * Clear information on the price of services
