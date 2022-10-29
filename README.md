@@ -142,3 +142,11 @@ Medium to X-Small
 ### Landing Page 
 
 * The main image on the landing page will portray the main concepts of the website. The image will be coloured and show a smiling customer who has recently had their hair cut. The image is clearly displaying a customer happy with the service and it is also immediately clear to a visitor what the purpose of the website is. 
+
+### Book Now Section 
+
+Desktop >992px 
+* A transparent b	ox includes blurb on the offers that customer can receive when they join the wait list and a button to bring them to a page to join the wait list 
+
+Small Devices <992px 
+* The section is positioned below the hero image otherwise it would cover too much of the image 
