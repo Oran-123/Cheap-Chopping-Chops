@@ -85,4 +85,13 @@ Again, a less serious image portrays a more approach, less premium brand and wit
 
 The font awesome library will be used throughout the site for social media links, to provide visual aides for section headers, contact links, navigation links, and more. All icons will be consistent with the fun, approachable design of the brand. 
 
+## Colours 
+
+The inspiration for the colours was taken from the red, white, and blue of a traditional barber’s bar. I used the website colourmind to aid me with the selection of the specific colour scheme. I tested the colours I originally selected on the WebAIM contract checker, and it failed the test, this can be seen here. To improve the contrast ratio, I adjusted the colours manually until the test past, the final colours which passed the test can be seen here. 
+
+* FFFFFF
+* 708FFB
+* DA1818
+* 1295DC
+* 3071F7
 
