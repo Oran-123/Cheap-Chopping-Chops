@@ -9,6 +9,36 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 
 # Table of Contens 
 
+* [UX](#ux "UX")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Site Owner Goals](#site-owner-goals "Site Owner Goals")
+* [Requirements and Expectations](#requirements-and-expectations "Requirements and Expectations)
+    * [Requirements](#requirements-and-expectations "Requirements")
+    * [Expectations](#expectations "Expectations")
+* [Design-Choices](#design-choices "Design Choices")
+    * [Inspiration](#inspiration "Inspiration")
+    * [Fonts](#fonts "Fonts")
+    * [Images](#images "Images")
+    * [Icons](#Icons "Icons")
+    * [Colours](#colours "Colors")
+    * [Structure](#structure "Structure")
+* [Wireframes](#wireframes "Wireframes")
+* [Features](#features "Features")
+    * [Existing-Features](#existing-features "Existing Feautres")
+        * [Navigation-Bar](#navigation-bar "Navigation Bar")
+        * [Landing-page](#landing-page "Landing Page")
+        * [Book-Now-Section](#book-now-section "Book Now Section")
+        * [Location-Section](#location-section "Location Section")
+        * [Booking-Form-Section](#booking-form-section "Booking Form Section")
+        * [Gallery-Section](#gallery-section "Gallery Section")
+        * [Footer](#footer-section "footer section")
+    * [Features-To-Be-Implemented](#features-to-be-implemented "Features to be Implemented")
+* [Technologies](#technologies "Technologies")
+    * [Languages](#languages "Languages")
+    * [Libraries-&-Frameworks](#libraries "Libraries & Frameworks")
+
+
 # UX
 
 ## User Goals 
@@ -46,7 +76,7 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 * Visuals of shop locations 
 * Enquiry form that allows users to select options such as the store location, the barber, and the style 
 
-## Exemption
+## Expectations 
 
 * I expect to know that my booking enquiry was submitted successfully 
 * I expect that links to all of the social media open in a new tab
