@@ -178,6 +178,10 @@ Phone Screens
 
 * The gallery section includes rectangular tyles with images that display example hair cuts that were submitted of customers 
 
+### Footer Section 
+
+* The footer contains icons which are clickable links for social media platforms 
+* There is also a page list so users can access the various pages from the footer 
 
 
 
