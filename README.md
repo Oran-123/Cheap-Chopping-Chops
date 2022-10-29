@@ -183,5 +183,10 @@ Phone Screens
 * The footer contains icons which are clickable links for social media platforms 
 * There is also a page list so users can access the various pages from the footer 
 
+## Features to be implemented 
 
+# Technologies 
 
+## Languages 
+
+## Libraries 
