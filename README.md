@@ -138,3 +138,7 @@ Medium to X-Small
 
 * A hamburger menu will replace the listed menu items on smaller screens to optimize screen space 
 * The menu items will be visible after the hamburger menus is expanded by a user clicking it 
+
+### Landing Page 
+
+* The main image on the landing page will portray the main concepts of the website. The image will be coloured and show a smiling customer who has recently had their hair cut. The image is clearly displaying a customer happy with the service and it is also immediately clear to a visitor what the purpose of the website is. 
