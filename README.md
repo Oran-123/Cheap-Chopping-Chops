@@ -42,7 +42,7 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 * Easy to navigate on different screen sizes
 * Clear information on the price of services
 * Good quality images of the hair styles that are available 
-* Encourage signups to the newsletter with attracting offers for new joiners 
+* Encourage booking enquiries  
 * Visuals of shop locations 
 * Enquiry form that allows users to select options such as the store location, the barber, and the style 
 
@@ -73,7 +73,7 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 
 ## Fonts
 
-I have used google fonts to select a font type that best supports the goals of the website, to provide users with cheap haircuts. For the main text I have selected [Comforta](https://fonts.google.com/specimen/Comfortaa) because the rounded edges portray a less serious, more fun, and approachable brand compared to a font with sharper edges such as [Cinzel](https://fonts.google.com/specimen/Cinzel). To make the headers and the navigation bar stand out form the text, I decided to use [Valera Round](https://fonts.google.com/specimen/Varela+Round).
+I have used google fonts to select a font type that best supports the goals of the website, to provide users with cheap haircuts. For the main text I have selected [Comfortaa](https://fonts.google.com/specimen/Comfortaa "Comfortaa") because the rounded edges portray a less serious, more fun, and approachable brand compared to a font with sharper edges such as [Cinzel](https://fonts.google.com/specimen/Cinzel "Cinzel"). To make the headers and the navigation bar stand out form the text, I decided to use [Valera Round](https://fonts.google.com/specimen/Varela+Round "Valera Round").
 
 ## Images
 
@@ -97,7 +97,7 @@ The inspiration for the colours was taken from the red, white, and blue of a tra
 
 ## Structure
 
-I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/).
+I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap breakpoints").
 
 | Screen Size | Breakpoint |
 | ----------- | ---------- |
@@ -106,3 +106,15 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 | medium      | => 768px   |
 | large       | => 992px   |
 | x-large     | => 1200px  |
+
+# Wireframes 
+
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the desktop version of the wireframes and then scalled it up down for both tablet and mobile versions. 
+
+Because a requirement is to encourage booking enquires two CTAs are included in the intial section. Furthermore, because this is a one-page website the user is forced to scroll through all of the site content before they reach the booking form at the bottom of the page. 
+
+The wireframes are below:
+
+### [Desktop Wireframe](css/wireframes/Large-screen-wireframes.pdf "Desktop Wireframe" )
+### [Tablet Wireframe](css/wireframes/Medium-screen-wireframes.pdf "Tablet wireframe")
+### [Phone Wireframe](css/wireframes/Small-screen-wireframes.pdf "Phone wireframe")
