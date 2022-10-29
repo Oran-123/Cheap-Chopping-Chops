@@ -55,4 +55,21 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 * I expect the site to be responsive and for the quality not to be impacted by the different screen sizes 
 * I expect to be able to navigate to all of the pages via the navigation bar i.e., links work correctly 
 
+# Design Choices 
+
+## Inspiration 
+ 
+1.  https://samsbarbers.com/ 
+* The fixed nav bar will be used to allow users to access pages at any point of the site, but the background colour will be solid and not transparent so the text is always visible 
+* The social media icons will be included in header 
+
+2. https://www.area9.ie/
+* The sections on the page store will be similar to the sections used to provide examples of the different styles 
+* Fixed nav bar with solid background colour so text is always visible 
+
+3. https://www.waldorfbarbers.shop/
+* Parallax on the hero image will be used as seen on this site 
+* The colour scheme will be like this site 
+
+
 
