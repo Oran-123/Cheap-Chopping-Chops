@@ -35,7 +35,14 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 * Promote the different stores 
 * Increase the search ranking on search engines
 
+# Requirements 
 
+* Easy to navigate on different screen sizes
+* Clear information on the price of services
+* Good quality images of the hair styles that are available 
+* Encourage signups to the newsletter with attracting offers for new joiners 
+* Visuals of shop locations 
+* Enquiry form that allows users to select options such as the store location, the barber, and the style 
 
 
 
