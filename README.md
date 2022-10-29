@@ -46,5 +46,13 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 * Visuals of shop locations 
 * Enquiry form that allows users to select options such as the store location, the barber, and the style 
 
+## Exemption
+
+* I expect to know that my booking enquiry was submitted successfully 
+* I expect that links to all of the social media open in a new tab
+* I expect all content to be accurate and without grammar mistakes
+* I expect to receive a discount code for joining the waitlist 
+* I expect the site to be responsive and for the quality not to be impacted by the different screen sizes 
+* I expect to be able to navigate to all of the pages via the navigation bar i.e., links work correctly 
 
 
