@@ -71,5 +71,11 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 * Parallax on the hero image will be used as seen on this site 
 * The colour scheme will be like this site 
 
+## Fonts
+
+I have used google fonts to select a font type that best supports the goals of the website, to provide users with cheap haircuts. For the main text I have selected [Comforta](https://fonts.google.com/specimen/Comfortaa) because the rounded edges portray a less serious, more fun, and approachable brand compared to a font with sharper edges such as [Cinzel](https://fonts.google.com/specimen/Cinzel). To make the headers and the navigation bar stand out form the text, I decided to use [Valera Round](https://fonts.google.com/specimen/Varela+Round).
+
+
+
 
 
