@@ -115,6 +115,6 @@ Because a requirement is to encourage booking enquires two CTAs are included in 
 
 The wireframes are below:
 
-### [Desktop Wireframe](css/wireframes/Large-screen-wireframes.pdf "Desktop Wireframe" )
-### [Tablet Wireframe](css/wireframes/Medium-screen-wireframes.pdf "Tablet wireframe")
-### [Phone Wireframe](css/wireframes/Small-screen-wireframes.pdf "Phone wireframe")
+### [Desktop Wireframe](css/wireframes/Large-screen-wireframe.pdf "Desktop Wireframe" )
+### [Tablet Wireframe](css/wireframes/Medium-screen-wireframe.pdf "Tablet wireframe")
+### [Phone Wireframe](css/wireframes/Small-screen-wireframe.pdf "Phone wireframe")
