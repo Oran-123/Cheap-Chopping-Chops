@@ -81,6 +81,8 @@ It is important that the large background image used in the hero section portray
 
 Again, a less serious image portrays a more approach, less premium brand and with those lower costs. 
 
+## Icons
 
+The font awesome library will be used throughout the site for social media links, to provide visual aides for section headers, contact links, navigation links, and more. All icons will be consistent with the fun, approachable design of the brand. 
 
 
