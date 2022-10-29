@@ -169,5 +169,8 @@ Phone Screens
 
 ### Contact Section 
 
+* The form on this page includes radio buttons so that users can either make a general query or a booking enquiry for a specific store 
+* The fields are all required fields and the email field requires the user to enter a value that follows a valid email format
+* There is also a map with a pin for each of the four stores 
 
 
