@@ -176,7 +176,7 @@ Medium to X-Small
 ### Book Now Section 
 
 Desktop >992px 
-* A transparent b	ox includes blurb on the offers that customer can receive when they join the wait list and a button to bring them to a page to join the wait list 
+* A transparent box includes blurb on the offers that customer can receive when they join the wait list and a button to bring them to a page to join the wait list 
 
 Small Devices <992px 
 * The section is positioned below the hero image otherwise it would cover too much of the image 
