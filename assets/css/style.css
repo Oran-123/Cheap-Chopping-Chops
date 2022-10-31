@@ -1,11 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Varela+Round&display=swap');
 
+/* baseline style rules for all screen sizes */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-body{
-    font-family: Comfortaa,sans-serif;
+
+body {
+    font-family: Comfortaa, sans-serif;
     font-weight: 400;
+    font-size: 1.6rem;
+    color: #0A4BCD;
 }
+
+h1,
+h2 {
+    font-family: Varela-Round, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #0A4BCD;
+}
+
+/* General header style */
+
+
+header {
+    background-color: #0A4BCD;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.wrapper {
+    width: calc();
+    margin: auto 0;
+    height: 100%; 
+}
+
+/* hamburger menu specific to mobile devices (<577px), inspired by https://www.youtube.com/watch?v=xXze-haVm7ghttps://www.youtube.com/watch?v=xXze-haVm7g*/
+
+nav {
+    position: relative;
+    width: 4rem;
+    height: 2.5rem;
+    background: #333;
+    border-radius: 3px;
+}
+
+nav:before,
+nav:after {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    background: #ffffff;
+    transition: .2s ease, top .2s ease;
+    transform: rotate(0deg) translateY(-50%)
+}
+
+nav::before {
+    top: 30%;
+}
+
+nav::after {
+    top: 70%;
+}
+
+nav:focus::before {
+    top: 50%;
+    transform: rotate(30deg) translateY(-50%)
+}
+
+nav:focus::after {
+    top: 50%;
+    transform: rotate(-30deg) translateY(-50%)
+}
+
+/* TBC*/
+
+nav ul {
+    display: none;
+    flex-direction: row;
+    list-style: none;
+}
+
+    ul li {
+        margin-left: 1rem;
+    }
+
+    ul a {
+        color: #ffffff;
+    }
+
+    #logo img {
+        height: 15vh;
+    }
+
+    /* inspiration for the button design https://www.youtube.com/watch?v=OjQP7rPwJyE */
+
+    #Book_Button {
+        border-radius: .5rem;
+        padding: .5rem .8rem;
+        border: 1px solid #A51212;
+        height: 5vh;
+    }
+
+    #Book_Button button {
+        background-color: transparent;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+
+    /* header style for tablets and large mobiles (>576px) */
+
+    @media only screen and (min-width: 576px) {
+
+        nav ul {
+            display: none;
+            flex-direction: row;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
