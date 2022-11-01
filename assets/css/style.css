@@ -142,6 +142,13 @@ ul a {
 }
 
 /* Hero Image */
+#hero-outer {
+    height: 45rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image {
     height: 45rem;
     width: 100%;
@@ -165,4 +172,74 @@ ul a {
         transform: scale(1.1);
     }
 
+}
+
+/* about us section */
+
+#About {
+    background: lightgrey;
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Price section */
+
+#Price {
+    background: lightblue;
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Gallery section */
+
+#Gallery {
+    background: lightcoral;
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Gallery section */
+
+#Locations {
+    background: lightgreen;
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Booking section */
+
+#Booking {
+    background: lightsalmon;
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Booking-Form section */
+
+#Booking-Form{
+    background: lightpink;
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Footer section */
+
+#Footer{
+    background: lightskyblue;
+    height: 5rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
