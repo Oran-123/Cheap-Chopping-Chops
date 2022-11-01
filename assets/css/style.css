@@ -32,22 +32,28 @@ header {
     flex-direction: row;
 }
 
-
+#logo img {
+    height: 15vh;
+}
 
 /* hamburger menu specific to mobile devices (<577px), inspired by https://www.youtube.com/watch?v=xXze-haVm7ghttps://www.youtube.com/watch?v=xXze-haVm7g*/
 
 nav {
+
     position: relative;
     width: 4rem;
     height: 2.5rem;
     background: #333;
     border-radius: 3px;
+    display: none;
+    /* remove to see hamburger menu*/
 }
 
 nav:before,
 nav:after {
     content: '';
-    display: inline-block;
+    display: none;
+    /* inline-block;*/
     height: 2px;
     width: 70%;
     position: absolute;
@@ -76,12 +82,13 @@ nav:focus::after {
     transform: rotate(-30deg) translateY(-50%)
 }
 
-/* TBC*/
+/* Nav menu style*/
 
 nav ul {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: none;
+    /*flex */
     flex-direction: column;
     list-style: none;
     width: 100vw;
@@ -94,46 +101,68 @@ nav ul {
 
 }
 
-    ul li {
-        margin: 2vh 0;
+ul li {
+    margin: 2vh 0;
 
+}
+
+ul a {
+    color: #ffffff;
+    font-size: 5vw;
+    width: 50vw;
+}
+
+/* inspiration for the button design https://www.youtube.com/watch?v=OjQP7rPwJyE */
+
+#Book_Button {
+    border-radius: .5rem;
+    padding: .5rem .8rem;
+    border: 1px solid #A51212;
+    height: 5vh;
+}
+
+#Book_Button button {
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* header style for tablets and large mobiles (>576px) */
+
+@media only screen and (min-width: 576px) {
+
+    nav ul {
+        display: none;
+        flex-direction: row;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Hero Image */
+#hero-image {
+    height: 45rem;
+    width: 100%;
+    background: url(../images/Hero\ Image.webp) no-repeat center center;
+
+    /* zoom effect as seen in love running */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* level of zoom */
+@keyframes hero-zoom {
+
+    from {
+        transform: scale(1);
     }
 
-    ul a {
-        color: #ffffff;
-        font-size: 5vw;
-        width: 50vw;
+    to {
+        transform: scale(1.1);
     }
 
-    #logo img {
-        height: 15vh;
-    }
-
-    /* inspiration for the button design https://www.youtube.com/watch?v=OjQP7rPwJyE */
-
-    #Book_Button {
-        border-radius: .5rem;
-        padding: .5rem .8rem;
-        border: 1px solid #A51212;
-        height: 5vh;
-    }
-
-    #Book_Button button {
-        background-color: transparent;
-        color: #ffffff;
-        font-weight: bold;
-    }
-
-
-    /* header style for tablets and large mobiles (>576px) */
-
-    @media only screen and (min-width: 576px) {
-
-        nav ul {
-            display: none;
-            flex-direction: row;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-    }
+}
