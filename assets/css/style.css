@@ -178,17 +178,17 @@ ul a {
 
 /* about us section */
 
-#About {
+.About-Container {
     overflow: hidden;
     position: relative;   
     
 }
 
-#About H1 {
-    margin:1rem
+.About-Container H1 {
+    margin:2rem
 }
 #about-text{
-     margin: 4rem 3rem ;
+     margin: 4rem 4rem ;
 }
 
 #about-text > p{
@@ -196,7 +196,31 @@ ul a {
     margin: 2rem 0rem
 }
 
-.about-img{
+#about-img-outer{
+    height: 40rem;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+/* about us section above 768px (larger then mobile and tablet) screen size*/ 
+
+@media only screen and (min-width:768px) {
+.About-Container{
+    height: 100%;
+    padding:0;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#about-text { 
+    width: 50%;
+}
+#about-img-outer{
+    width: 50%;
+}
 }
 /* Price section */
 
