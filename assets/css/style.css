@@ -20,6 +20,8 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #0A4BCD;
+    font-size: 1.6rem;
+    text-align: center;
 }
 
 /* General header style */
@@ -177,13 +179,25 @@ ul a {
 /* about us section */
 
 #About {
-    background: lightgrey;
-    height: 20rem;
-    width: 100%;
     overflow: hidden;
-    position: relative;
+    position: relative;   
+    
 }
 
+#About H1 {
+    margin:1rem
+}
+#about-text{
+     margin: 4rem 3rem ;
+}
+
+#about-text > p{
+    text-align: center;
+    margin: 2rem 0rem
+}
+
+.about-img{
+}
 /* Price section */
 
 #Price {
