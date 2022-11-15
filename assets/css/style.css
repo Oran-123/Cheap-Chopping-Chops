@@ -184,10 +184,11 @@ ul a {
     display:inline-block;
     cursor: pointer;
     text-decoration: none;
-    color: #da1818;
+    background-color: #da1818;
+    color: #ffffff;
     border:#da1818 .2rem solid;
     border-radius: .4rem;
-    text-shadow: 0 0 .8rem #da1818;
+    text-shadow: 0 ;
     box-shadow:  inset 0 0 .4rem #da1818, 0 0 1.4rem #da1818;
 
     Position:relative;
@@ -205,22 +206,30 @@ ul a {
     opacity: 0.7;
     
 }
-
-.book-now-button:hover{
-    background: #da1818;
-    text-shadow: 0;
-    color: white;
-
-/* zoom effect as seen in love running */
-
-    animation-name: button-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/* level of zoom only on desktop as users do not hover on mobile*/
+/* Button hover effect only for screens >768px because the effect will stick on touch screen devicies such as tablets and mobile */
 
 @media only screen and (min-width:768px) {
+    .book-now-button{
+        background-color: #ffffff;
+        color: #da1818;
+        text-shadow: 0 0 .8rem #da1818;
+    }
+    .book-now-button::before{
+        content: "";
+        filter: blur(0);
+        opacity: 0;}
+
+    .book-now-button:hover{
+        background: #da1818;
+        text-shadow: 0;
+        color: white;
+    
+    /* zoom effect as seen in love running */
+    
+        animation-name: button-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
     @keyframes button-zoom {
 
         from {
@@ -231,11 +240,6 @@ ul a {
             transform:scale(1.3);
         }
 }
-.book-now-button::before{
-    content: "";
-    filter: blur(0);
-    opacity: 0;}
-
 .book-now-button:hover::before{
     content: "";
     position: absolute;
@@ -250,16 +254,7 @@ ul a {
     }
 }
 
-
-
 /* about us section */
-
-.About-Container {
-    overflow: hidden;
-    position: relative;   
-    
-}
-
 .About-Container H1 {
     margin:2rem;
 }
@@ -282,13 +277,10 @@ ul a {
 
 @media only screen and (min-width:768px) {
 .About-Container{
-    height: 100%;
     padding:0;
     margin: 0 auto;
     display:flex;
     align-items: center;
-    justify-content: center;
-
 }
 #about-text { 
     width: 50%;
