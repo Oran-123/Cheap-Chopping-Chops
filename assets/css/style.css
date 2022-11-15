@@ -26,36 +26,40 @@ h2 {
 
 /* General header style */
 header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
     background-color: #0A4BCD;
-    height: 15vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 }
 
 #logo img {
-    height: 15vh;
+    height: 12vh;
+}
+
+header h1 {
+    color: #ffffff;
 }
 
 /* hamburger menu specific to mobile devices (<577px), inspired by https://www.youtube.com/watch?v=xXze-haVm7ghttps://www.youtube.com/watch?v=xXze-haVm7g*/
 
 nav {
 
-    position: relative;
     width: 4rem;
     height: 2.5rem;
     background: #333;
     border-radius: 3px;
-    display: none;
-    /* remove to see hamburger menu*/
+    margin: 0 1rem;
 }
 
 nav:before,
 nav:after {
     content: '';
     display: none;
-    /* inline-block;*/
     height: 2px;
     width: 70%;
     position: absolute;
@@ -148,7 +152,7 @@ ul a {
     height: 45rem;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    
 }
 
 #hero-image {
@@ -296,7 +300,7 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    
 }
 
 /* Gallery section */
@@ -306,7 +310,7 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    
 }
 
 /* Gallery section */
@@ -316,7 +320,7 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    
 }
 
 /* Booking section */
@@ -326,7 +330,7 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    
 }
 
 /* Booking-Form section */
@@ -336,7 +340,7 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    
 }
 
 /* Footer section */
@@ -346,5 +350,5 @@ ul a {
     height: 5rem;
     width: 100%;
     overflow: hidden;
-    position: relative;
+
 }
