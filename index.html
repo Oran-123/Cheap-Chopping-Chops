@@ -67,7 +67,13 @@
     </section>
     <section id="Gallery">Gallery</section>
     <section id="Locations">Locations</section>
-    <section id="Booking">How to make a booking</section>
+    <section id="Booking">
+        <div id="how-to-book-container">
+            <div class="booking-instructions"></div>
+            <div class="booking-instructions"></div>
+            <div class="booking-instructions"></div>
+        </div>
+    </section>
     <Section id="Booking-Form">
         <div id="Booking-Form-Wrapper">
             <h1>Book Your Appointment Now!</h1>
@@ -80,9 +86,9 @@
                         <input class="form-field" type="text" id="lname" name="lname">
                         <label for="store">Select Store</label>
                         <select class="form-field" name="store" id="store" form="Form">
-                            <Option vale="store1">store1</Option>
-                            <Option vale="store2">store2</Option>
-                            <Option vale="store3">store3</Option>
+                            <Option id="store" vale="store1">store1</Option>
+                            <Option id="store" vale="store2">store2</Option>
+                            <Option id="store" vale="store3">store3</Option>
                         </select>
                         <label for="enquiry">Booking Enquiry</label>
                         <textarea class="form-field" name="enquiry" id="enquiry" cols="30" rows="10" placeholder="Tell us about your booking..."></textarea>
