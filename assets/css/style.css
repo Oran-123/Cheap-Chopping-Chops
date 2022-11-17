@@ -152,7 +152,7 @@ ul a {
     height: 45rem;
     width: 100%;
     overflow: hidden;
-    
+
 }
 
 #hero-image {
@@ -181,23 +181,24 @@ ul a {
 }
 
 /*Book now button at the bottom of each section style inspired by https://www.youtube.com/watch?v=6xNcXwC6ikQ*/
- 
-.book-now-button{
+
+.book-now-button {
     font-size: 2rem;
     padding: .4rem 1rem;
-    display:inline-block;
+    display: inline-block;
     cursor: pointer;
     text-decoration: none;
     background-color: #da1818;
     color: #ffffff;
-    border:#da1818 .2rem solid;
+    border: #da1818 .2rem solid;
     border-radius: .4rem;
-    text-shadow: 0 ;
-    box-shadow:  inset 0 0 .4rem #da1818, 0 0 1.4rem #da1818;
+    text-shadow: 0;
+    box-shadow: inset 0 0 .4rem #da1818, 0 0 1.4rem #da1818;
 
-    Position:relative;
+    Position: relative;
 }
-.book-now-button::before{
+
+.book-now-button::before {
     content: "";
     position: absolute;
     background-color: #da1818;
@@ -208,91 +209,101 @@ ul a {
     transform: perspective(15rem) rotatex(55deg);
     filter: blur(.9rem);
     opacity: 0.7;
-    
+
 }
+
 /* Button hover effect only for screens >768px because the effect will stick on touch screen devicies such as tablets and mobile */
 
 @media only screen and (min-width:768px) {
-    .book-now-button{
+    .book-now-button {
         background-color: #ffffff;
         color: #da1818;
         text-shadow: 0 0 .8rem #da1818;
     }
-    .book-now-button::before{
+
+    .book-now-button::before {
         content: "";
         filter: blur(0);
-        opacity: 0;}
+        opacity: 0;
+    }
 
-    .book-now-button:hover{
+    .book-now-button:hover {
         background: #da1818;
         text-shadow: 0;
         color: white;
-    
-    /* zoom effect as seen in love running */
-    
+
+        /* zoom effect as seen in love running */
+
         animation-name: button-zoom;
         animation-duration: 5s;
         animation-fill-mode: forwards;
     }
+
     @keyframes button-zoom {
 
         from {
-            transform:scale(1) ;
+            transform: scale(1);
         }
-    
+
         to {
-            transform:scale(1.3);
+            transform: scale(1.3);
         }
-}
-.book-now-button:hover::before{
-    content: "";
-    position: absolute;
-    background-color: #da1818;
-    top: 115%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: perspective(15rem) rotatex(55deg);
-    filter: blur(.9rem);
-    opacity: 0.7;
+    }
+
+    .book-now-button:hover::before {
+        content: "";
+        position: absolute;
+        background-color: #da1818;
+        top: 115%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: perspective(15rem) rotatex(55deg);
+        filter: blur(.9rem);
+        opacity: 0.7;
     }
 }
 
 /* about us section */
 .About-Container H1 {
-    margin:2rem;
-}
-#about-text{
-     margin: 4rem 4rem ;
-     text-align: center;
+    margin: 2rem;
 }
 
-#about-text > p{
+#about-text {
+    margin: 4rem 4rem;
+    text-align: center;
+}
+
+#about-text>p {
     margin: 2rem 0rem;
 }
 
-#about-img-outer{
+#about-img-outer {
     height: 40rem;
     background-color: lightgrey;
     border: 1px solid black;
     margin: 1rem;
 }
-/* about us section above 768px (larger then mobile and tablet) screen size*/ 
+
+/* about us section above 768px (larger then mobile and tablet) screen size*/
 
 @media only screen and (min-width:768px) {
-.About-Container{
-    padding:0;
-    margin: 0 auto;
-    display:flex;
-    align-items: center;
+    .About-Container {
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    #about-text {
+        width: 50%;
+    }
+
+    #about-img-outer {
+        width: 50%;
+    }
 }
-#about-text { 
-    width: 50%;
-}
-#about-img-outer{
-    width: 50%;
-}
-}
+
 /* Price section */
 
 #Price {
@@ -300,7 +311,7 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    
+
 }
 
 /* Gallery section */
@@ -310,7 +321,7 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    
+
 }
 
 /* Gallery section */
@@ -320,22 +331,78 @@ ul a {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    
+
 }
 
-/* Booking section */
+/* How to book section */
 
 #Booking {
-    background: lightsalmon;
-    height: 20rem;
-    width: 100%;
+    background: #ffffff;
     overflow: hidden;
-    
+
+}
+
+#how-to-book-wrapper {
+    margin: 2.5rem 5rem 2.5rem 5rem;
+}
+
+#how-to-book-wrapper>h1 {
+    justify-content: center;
+}
+
+/* container for the steps */
+
+#how-to-book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width:768px) {
+    #how-to-book-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+/* Circles for each step as inspired by https://stackoverflow.com/questions/4840736/easier-way-to-create-circle-div-than-using-an-image */
+
+.booking-instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #708FFB;
+    border: solid 4px #708FFB;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem;
+    color: #ffffff;
+    box-shadow: 0 0 1.2rem #708FFB;
+    /* text-shadow: .0 0 0.8rem #ffffff; */
+    position: relative;
+}
+
+/* shadow in front of each circle */
+
+.booking-instructions::before {
+    content: "";
+    position: absolute;
+    background-color: #708FFB;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(46rem) rotatex(70deg);
+    filter: blur(3rem);
+    opacity: 0.7;
 }
 
 /* Booking-Form section */
 
-#Booking-Form{
+#Booking-Form {
     background: #ffffff;
     overflow: hidden;
 }
@@ -348,14 +415,14 @@ ul a {
 
 /* Booking header */
 
-#Booking-Form-Wrapper > h1 {
+#Booking-Form-Wrapper>h1 {
     justify-content: center;
     margin: 2.5rem 0;
 }
 
 /* Contact form and Map Container */
 
-#Booking-Form-Wrapper > Div{
+#Booking-Form-Wrapper>Div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -363,66 +430,63 @@ ul a {
 }
 
 @media only screen and (min-width:768px) {
-    #Booking-Form-Wrapper > Div{ display: flex;
-    flex-direction: row;
-    justify-content: center;
+    #Booking-Form-Wrapper>Div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
-}
+
 /* Booking form background */
 
-#form-container{
+#form-container {
     align-items: center;
-    margin:2.5rem;
+    margin: 2.5rem;
     background-color: #708FFB;
-    width:fit-content;
-    box-shadow:0 0 1.6rem #708FFB;
+    width: fit-content;
+    box-shadow: 0 0 1.6rem #708FFB;
     border-radius: .5rem;
 }
 
 /* Booking form style */
 
-#Form{
-    padding:2.5rem;
+#Form {
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-label{
+label {
     color: white;
-    display:block;
+    display: block;
     margin: 1rem 0;
 }
 
-.form-field{
-    padding:.5rem;
+.form-field {
+    padding: .5rem;
     width: 90%;
     border-radius: 1rem;
 }
 
-#store{
-    width:90%;
+#store {
+    width: 90%;
     cursor: pointer;
 }
 
-#enquiry{
+#enquiry {
     padding: 1rem 1rem;
-    width:88%;
+    width: 88%;
 }
 
-#Form > .book-now-button{
+#Form>.book-now-button {
     margin: 2rem 0;
     width: 80%;
 }
 
-
-@media only screen and (min-width:768px) {
-
-
-}
 /* Map style */
 
-#map { 
+#map {
     border: solid 1px black;
     padding: 0;
     margin: 2.5rem;
@@ -432,7 +496,7 @@ label{
 
 /* Footer section */
 
-#Footer{
+#Footer {
     color: #ffffff;
     background: #0A4BCD;
     width: 100%;
