@@ -307,11 +307,41 @@ ul a {
 /* Price section */
 
 #Price {
-    background: lightblue;
-    height: 20rem;
+    background: #ffffff;
     width: 100%;
     overflow: hidden;
+}
 
+/* price container */
+
+#price-wrapper {
+    margin: 2.5rem 5rem 2.5rem 5rem;
+}
+
+/* box that contains the price list  */
+
+#price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#price-list{
+    width: 60%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#price-list > h1 {
+    text-align: center;
+}
+
+#price-list > ol {
+
+    margin: 2rem;
 }
 
 /* Gallery section */
