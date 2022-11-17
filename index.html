@@ -75,17 +75,18 @@
                 <div id="form-container">
                     <form id="Form">
                         <label for="fname">Full Name</label>
-                        <input type="text" id="fname" name="fname">
+                        <input class="form-field" type="text" id="fname" name="fname">
                         <label for="email">Email</label>
-                        <input type="text" id="lname" name="lname">
+                        <input class="form-field" type="text" id="lname" name="lname">
                         <label for="store">Select Store</label>
-                        <select name="store" id="store" form="Form">
+                        <select class="form-field" name="store" id="store" form="Form">
                             <Option vale="store1">store1</Option>
                             <Option vale="store2">store2</Option>
                             <Option vale="store3">store3</Option>
                         </select>
                         <label for="enquiry">Booking Enquiry</label>
-                        <input type="text" id="enquiry" name="enquiry">
+                        <textarea class="form-field" name="enquiry" id="enquiry" cols="30" rows="10" placeholder="Tell us about your booking..."></textarea>
+                        <input type="submit" value="Send" class="book-now-button">
                     </form>
                 </div>
                 <img id="map" src="assets/images/Google Maps.png" alt="Store Location">

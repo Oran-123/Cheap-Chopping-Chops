@@ -336,20 +336,21 @@ ul a {
 /* Booking-Form section */
 
 #Booking-Form{
-    background: lightpink;
+    background: #ffffff;
     overflow: hidden;
 }
 
 /* Booking section content container */
 
 #Booking-Form-Wrapper {
-    margin: 2rem 5rem;
+    margin: 5rem 5rem 2.5rem 5rem;
 }
 
 /* Booking header */
 
 #Booking-Form-Wrapper > h1 {
     justify-content: center;
+    margin: 2.5rem 0;
 }
 
 /* Contact form and Map Container */
@@ -357,31 +358,74 @@ ul a {
 #Booking-Form-Wrapper > Div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+@media only screen and (min-width:768px) {
+    #Booking-Form-Wrapper > Div{ display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 }
 /* Booking form background */
 
-/* Booking form style */
 #form-container{
-    margin:1rem;
-    background-color: lightgrey;
-    border: solid 1px black;
-}
-label{
-    display:flex;
-    flex-direction: inherit;
-    margin-top: 1rem;
+    align-items: center;
+    margin:2.5rem;
+    background-color: #708FFB;
+    width:fit-content;
+    box-shadow:0 0 1.6rem #708FFB;
+    border-radius: .5rem;
 }
 
-input{
+/* Booking form style */
+
+#Form{
+    padding:2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    color: white;
+    display:block;
+    margin: 1rem 0;
+}
+
+.form-field{
     padding:.5rem;
+    width: 90%;
     border-radius: 1rem;
+}
+
+#store{
+    width:90%;
+}
+
+#enquiry{
+    padding: 1rem 1rem;
+    width:88%;
+}
+
+#Form > .book-now-button{
+    margin: 2rem 0;
+    width: 80%;
+}
+
+
+@media only screen and (min-width:768px) {
+
+
 }
 /* Map style */
 
 #map { 
     border: solid 1px black;
+    padding: 0;
+    margin: 2.5rem;
+    max-width: 100%;
 
 }
 
