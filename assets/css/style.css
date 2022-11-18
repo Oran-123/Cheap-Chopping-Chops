@@ -328,7 +328,6 @@ ul a {
 
 #price-list{
     width: 60%;
-    height: 80%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -339,19 +338,45 @@ ul a {
     text-align: center;
 }
 
-#price-list > ol {
-
-    margin: 2rem;
+#price-list > ul {
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
 }
+.cost{
+    font-weight: bold;
+    align-items: right;
+} 
 
 /* Gallery section */
 
 #Gallery {
-    background: lightcoral;
-    height: 20rem;
     width: 100%;
     overflow: hidden;
+    display: flex;
+}
 
+/* gallery content wrapper */
+
+#gallery-wrapper{ 
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* style of tiles which include customer image and description */
+
+.container-gallery-tile{
+        height: 20rem;
+        width: 10rem;
+        border-radius: 1rem;
+        align-items: center;
+        background-color: #708FFB;
+}
+
+.content a .book-now-button {
+
+    width: 80%;
 }
 
 /* Gallery section */
