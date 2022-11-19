@@ -444,8 +444,19 @@ ul a {
 }
 
 /* Location section */
+#location-wrapper{
+    margin: 2.5rem 0rem;
+    width: 100%;
+}
 
-#Locations {
+/* direction of the store information */
+
+#location-container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 100%;
+
     background-image: url(../images/locations.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -453,14 +464,31 @@ ul a {
     height: 30rem;
     width: 100%;
     overflow: hidden;
-
 }
 
-#location-wrapper{
-    margin: 2.5rem 5rem;
+@media only screen and (min-width:768px) {
+    #location-container {
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: nowrap;
+}
 }
 
-#Locations h1 {
+/* store location information  */
+
+.store-locations{
+color: #ffffff;
+border: 1px solid #ffffff;
+/* height: 100%; */
+width: 33%;
+padding: 2.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.store-locations h2,p {
+    text-align: center;
     color: #ffffff;
 }
 
