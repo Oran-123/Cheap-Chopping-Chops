@@ -372,14 +372,15 @@ ul a {
 /* style of tiles which include customer image and description */
 
 .container-gallery-tile {
-    height: 20rem;
+    /* height: 20rem; */
     width: fit-content;
     margin: 2.5rem 0;
     border-radius: 1rem;
     background-color: #708FFB;
 }
 
-.content{
+.content {
+    max-width: 16.5rem;
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -388,13 +389,21 @@ ul a {
 
 /* image on gallery tile */
 
-.img{
+.img {
     height: 5rem;
     width: 100%;
     background-color: lightblue;
     border: solid 1px black;
-    
 }
+
+/* desc section - line clamp inspired by https://css-tricks.com/almanac/properties/l/line-clamp/*/
+
+.description {
+    color: #ffffff;
+    line-clamp: 3;
+    overflow: hidden;
+}
+
 /* Location section */
 
 #Locations {
