@@ -326,7 +326,7 @@ ul a {
     align-items: center;
 }
 
-#price-list{
+#price-list {
     width: 60%;
     border: 1px solid black;
     display: flex;
@@ -334,19 +334,20 @@ ul a {
     align-items: center;
 }
 
-#price-list > h1 {
+#price-list>h1 {
     text-align: center;
 }
 
-#price-list > ul {
+#price-list>ul {
     flex-direction: row;
     justify-content: center;
     list-style: none;
 }
-.cost{
+
+.cost {
     font-weight: bold;
     align-items: right;
-} 
+}
 
 /* Gallery section */
 
@@ -358,25 +359,27 @@ ul a {
 
 /* gallery content wrapper */
 
-#gallery-wrapper{ 
+#gallery-wrapper {
     flex-direction: column;
     align-items: center;
+    margin: 5rem;
 
 }
 
 /* style of tiles which include customer image and description */
 
-.container-gallery-tile{
-        height: 20rem;
-        width: 10rem;
-        border-radius: 1rem;
-        align-items: center;
-        background-color: #708FFB;
+.container-gallery-tile {
+    height: 20rem;
+    width: fit-content;
+    border-radius: 1rem;
+    align-items: center;
+    background-color: #708FFB;
+
+    position: relative;
 }
 
-.content a .book-now-button {
-
-    width: 80%;
+.content .book-now-button {
+    margin: 1rem;
 }
 
 /* Gallery section */
