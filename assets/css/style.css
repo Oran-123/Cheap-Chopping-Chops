@@ -446,11 +446,22 @@ ul a {
 /* Location section */
 
 #Locations {
-    background: lightgreen;
-    height: 20rem;
+    background-image: url(../images/locations.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 30rem;
     width: 100%;
     overflow: hidden;
 
+}
+
+#location-wrapper{
+    margin: 2.5rem 5rem;
+}
+
+#Locations h1 {
+    color: #ffffff;
 }
 
 /* How to book section */
