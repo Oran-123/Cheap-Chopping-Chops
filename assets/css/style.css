@@ -269,11 +269,29 @@ ul a {
 /* about us section */
 .About-Container H1 {
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width:768px) {
+
+    .About-Container H1 {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 #about-text {
-    margin: 4rem 4rem;
+    margin: 4rem 5rem;
     text-align: center;
+    
+}
+@media only screen and (min-width:768px) {
+
+    #about-text  {
+        width: 50%;
+    }
 }
 
 #about-text>p {
@@ -282,11 +300,19 @@ ul a {
 
 #about-img-outer {
     height: 40rem;
-    background-color: lightgrey;
-    border: 1px solid black;
-    margin: 1rem;
+    background-image: url(../images/About-Us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+   
 }
 
+@media only screen and (min-width:768px) {
+
+    #about-img-outer {
+        width: 50%;
+    }
+}
 /* about us section above 768px (larger then mobile and tablet) screen size*/
 
 @media only screen and (min-width:768px) {
@@ -353,7 +379,7 @@ ul a {
 
 /* book now button in price section */
 
-#price-button{
+#price-button {
     margin: 2.5rem;
 }
 
@@ -378,12 +404,13 @@ ul a {
 }
 
 /* container for all tiles to set dispaly */
-#gallery-container{
+#gallery-container {
     display: flex;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 @media only screen and (min-width:768px) {
 
     #gallery-container {
@@ -406,9 +433,10 @@ ul a {
 
 @media only screen and (min-width:768px) {
     .container-gallery-tile {
-    margin: 2.5rem;
+        margin: 2.5rem;
+    }
 }
-}
+
 .content {
     max-width: 16.5rem;
     margin: 1.5rem;
@@ -446,14 +474,14 @@ ul a {
 }
 
 /* Location section as seen in the CI Love Running Project 1 */
-#location-wrapper{
+#location-wrapper {
     margin: 2.5rem 0rem;
     width: 100%;
 }
 
 /* direction of the store information */
 
-#location-container{
+#location-container {
     display: flex;
     flex-direction: row;
     justify-items: center;
@@ -470,27 +498,27 @@ ul a {
 
 @media only screen and (min-width:768px) {
     #location-container {
-    flex-direction: row;
-    justify-items: center;
-    flex-wrap: nowrap;
-}
+        flex-direction: row;
+        justify-items: center;
+        flex-wrap: nowrap;
+    }
 }
 
 /* store location information  */
 
-.store-locations{
-color: #ffffff;
-border: 1px solid #ffffff;
-background-color: rgba(48, 113, 247, .6);
-width: 33%;
-padding: 2.5rem;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-text-align: center;
+.store-locations {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: rgba(48, 113, 247, .6);
+    width: 33%;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.store-locations > h2 {
+.store-locations>h2 {
     color: #ffffff;
 }
 
