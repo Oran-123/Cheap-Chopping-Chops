@@ -363,6 +363,9 @@ ul a {
     flex-direction: column;
     align-items: center;
     margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -371,14 +374,13 @@ ul a {
 .container-gallery-tile {
     height: 20rem;
     width: fit-content;
+    margin: 2.5rem 0;
     border-radius: 1rem;
     align-items: center;
     background-color: #708FFB;
-
-    position: relative;
 }
 
-.content .book-now-button {
+.content{
     margin: 1rem;
 }
 
