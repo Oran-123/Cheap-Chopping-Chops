@@ -421,7 +421,8 @@ ul a {
     height: 15rem;
     width: 100%;
     background-color: lightblue;
-    border: solid 1px black;
+    border: solid 1px lightblue;
+    border-radius: 1rem;
 }
 
 /* desc section - line clamp inspired by https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css*/
