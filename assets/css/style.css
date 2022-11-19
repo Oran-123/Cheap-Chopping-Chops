@@ -399,6 +399,7 @@ ul a {
     margin: 2.5rem 0;
     border-radius: 1rem;
     background-color: #708FFB;
+    box-shadow: 0 0 1.2rem #708FFB;
 }
 
 @media only screen and (min-width:768px) {
