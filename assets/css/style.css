@@ -357,7 +357,7 @@ ul a {
     display: flex;
 }
 
-/* gallery content wrapper */
+/* gallery content wrapper for all content in the gallery section*/
 
 #gallery-wrapper {
     flex-direction: column;
@@ -369,15 +369,28 @@ ul a {
 
 }
 
+/* container for all tiles to set dispaly */
+
+@media only screen and (min-width:768px) {
+
+    #gallery-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+}
+
 /* style of tiles which include customer image and description */
 
 .container-gallery-tile {
-    /* height: 20rem; */
     width: fit-content;
     margin: 2.5rem 0;
     border-radius: 1rem;
     background-color: #708FFB;
 }
+
 
 .content {
     max-width: 16.5rem;
@@ -399,12 +412,19 @@ ul a {
 /* desc section - line clamp inspired by https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css*/
 
 .description {
-    color: #ffffff; 
+    color: #ffffff;
+    margin-top: 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 7; 
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
+}
+
+/* book now button gallery section */
+
+#gallery-button {
+    margin: 2rem;
 }
 
 /* Location section */
