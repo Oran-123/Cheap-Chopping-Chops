@@ -385,6 +385,7 @@ ul a {
 /* style of tiles which include customer image and description */
 
 .container-gallery-tile {
+    display: flex;
     width: fit-content;
     margin: 2.5rem 0;
     border-radius: 1rem;
@@ -394,7 +395,7 @@ ul a {
 
 .content {
     max-width: 16.5rem;
-    margin: 1rem;
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
