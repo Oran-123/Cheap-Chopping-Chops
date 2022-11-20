@@ -111,7 +111,7 @@ nav>ul>li>a {
     font-weight: bold;
 }
 
-/* hamburger menu  */
+/* hamburger menu design */
 nav:before,
 nav:after {
     content: '';
@@ -134,7 +134,7 @@ nav::after {
     top: 70%;
 }
 
-/* hamburger menu rotate effect  */
+/* hamburger menu in focus rotate effect  */
 nav:focus::before {
     top: 50%;
     transform: rotate(30deg) translateY(-50%)
