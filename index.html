@@ -24,26 +24,20 @@
 <body>
 
     <header>
-
-        <div id="logo">
-            <a href="index.html">
-                <img src="assets/images/Logo.png" alt="Cheap Chopping Chops Logo">
-            </a>
-        </div>
-        <div class="header">
-            <H1> Cheap Chopping Chops</H1>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="#About">About Us</a></li>
-                <li><a href="#Price">Prices</a></li>
-                <li><a href="#Gallery">Gallery</a></li>
-                <li><a href="#Locations">Locations</a></li>
-                <li id="Book_Button"><a href="#Booking"><button>Book Now</button></a></li>
+        <a href="index.html" id="logo">
+            <img src="assets/images/Logo.png" alt="Cheap Chopping Chops Logo">
+        </a>
+        <H1> Cheap Chopping Chops</H1>
+        <nav tabindex="0" aria-haspopup="true">
+            <ul role="menubar">
+                <li><a href="#About" role="menuitem" aria-label="About">About Us</a></li>
+                <li><a href="#Price" role="menuitem" aria-label="Prices">Prices</a></li>
+                <li><a href="#Gallery" role="menuitem" aria-label="Gallery">Gallery</a></li>
+                <li><a href="#Locations" role="menuitem" aria-label="Locations">Locations</a></li>
+                <li id="Book_Button" role="menuitem" aria-label="Book"><a href="#Booking"><button>Book Now</button></a>
+                </li>
             </ul>
         </nav>
-
     </header>
     <section id="hero-outer">
         <div id="hero-image">
