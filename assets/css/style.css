@@ -65,7 +65,7 @@ nav ul {
     position: absolute;
     right: -8.3rem;
     top: 4.5rem;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -81,6 +81,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
+
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -96,7 +97,7 @@ nav>ul>li>a {
 }
 
 
-/* inspiration for the button design https://www.youtube.com/watch?v=OjQP7rPwJyE */
+/* inspiration for the button design https://www.youtube.com/watch?v=OjQP7rPwJyE
 
 #Book_Button {
     border-radius: .5rem;
@@ -109,7 +110,7 @@ nav>ul>li>a {
     background-color: transparent;
     color: #ffffff;
     font-weight: bold;
-}
+} */
 
 /* hamburger menu design */
 nav:before,
