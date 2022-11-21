@@ -57,9 +57,19 @@ nav {
     position: relative;
 }
 
+@media only screen and (min-width:768px) {
+    nav{
+        width: fit-content;
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+        color: #ffffff;
+}
+}
+
 /* Nav menu style*/
 
-nav > ul {
+nav>ul {
     z-index: 1;
     position: fixed;
     right: 0;
@@ -73,11 +83,19 @@ nav > ul {
     height: 100%;
     background: #0A4BCD;
 }
-
+@media only screen and (min-width:768px) {
+    nav > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: relative;
+        width: auto;
+        height: auto;
+        top: 0;
+}
+}
 nav>ul>li {
     margin: 0;
-    /* width: 100%; */
-    /* height: 20%; */
 
 }
 
@@ -97,21 +115,21 @@ nav>ul>li>a {
     margin: 2vh 0;
 }
 
+@media only screen and (min-width:768px) {
+    nav>ul>li>a {
+        font-size: 1rem;
+        font-weight: bold;
+        width: fit-content;
+        margin: 0;
+        min-width: fit-content;
+        width: fit-content;
+    }
 
-/* inspiration for the button design https://www.youtube.com/watch?v=OjQP7rPwJyE
-
-#Book_Button {
-    border-radius: .5rem;
-    padding: .5rem .8rem;
-    border: 1px solid #A51212;
-    height: 5vh;
+    #nav-button > a {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
 }
-
-#Book_Button button {
-    background-color: transparent;
-    color: #ffffff;
-    font-weight: bold;
-} */
 
 /* hamburger menu design */
 nav:before,
@@ -128,12 +146,18 @@ nav:after {
     transform: rotate(0deg) translateY(-50%);
 }
 
+@media only screen and (min-width:768px) {
+    nav:before,
+    nav:after{display: none;
+}
+}
 nav::before {
     top: 30%;
 }
 
 nav::after {
     top: 70%;
+    
 }
 
 /* hamburger menu in focus rotate effect  */
