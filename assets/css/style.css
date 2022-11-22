@@ -36,25 +36,28 @@ header {
     align-items: center;
     flex-direction: row;
 }
+
 @media only screen and (min-width:576px) {
 
-    header{
-    justify-content: space-evenly;
+    header {
+        justify-content: space-evenly;
     }
 }
+
 #logo img {
     height: 12vh;
 }
 
-header h1 { 
+header h1 {
     display: none;
 }
+
 @media only screen and (min-width:576px) {
 
-header h1 {
-    display: block;
-    color: #ffffff;
-}
+    header h1 {
+        display: block;
+        color: #ffffff;
+    }
 
 }
 
@@ -70,13 +73,13 @@ nav {
 }
 
 @media only screen and (min-width:768px) {
-    nav{
+    nav {
         width: fit-content;
         height: 100%;
         border-radius: 0;
         margin: 0;
         color: #ffffff;
-}
+    }
 }
 
 /* Nav menu style*/
@@ -95,8 +98,9 @@ nav>ul {
     height: 100%;
     background: #0A4BCD;
 }
+
 @media only screen and (min-width:768px) {
-    nav > ul {
+    nav>ul {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -104,8 +108,9 @@ nav>ul {
         width: auto;
         height: auto;
         top: 0;
+    }
 }
-}
+
 nav>ul>li {
     margin: 0;
 
@@ -137,7 +142,7 @@ nav>ul>li>a {
         width: fit-content;
     }
 
-    #nav-button > a {
+    #nav-button>a {
         font-size: 1rem;
         margin-left: 1rem;
     }
@@ -159,17 +164,20 @@ nav:after {
 }
 
 @media only screen and (min-width:768px) {
+
     nav:before,
-    nav:after{display: none;
+    nav:after {
+        display: none;
+    }
 }
-}
+
 nav::before {
     top: 30%;
 }
 
 nav::after {
     top: 70%;
-    
+
 }
 
 /* hamburger menu in focus rotate effect  */
@@ -308,20 +316,13 @@ nav:focus ul {
 }
 
 /* about us section */
-.About-Container H1 {
-    margin: 2rem;
+.About-Container  {
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-@media only screen and (min-width:992px) {
-
-    .About-Container H1 {
-        flex-direction: row;
-        justify-content: center;
-    }
-}
 
 #about-text {
     margin: 4rem 5rem;
@@ -329,12 +330,6 @@ nav:focus ul {
 
 }
 
-@media only screen and (min-width:768px) {
-
-    #about-text {
-        width: 50%;
-    }
-}
 
 #about-text>p {
     margin: 2rem 0rem;
@@ -346,23 +341,19 @@ nav:focus ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    width: 100%;
 
 }
 
-@media only screen and (min-width:768px) {
-
-    #about-img-outer {
-        width: 50%;
-    }
-}
 
 /* about us section above 768px (larger then mobile and tablet) screen size*/
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 812px) {
     .About-Container {
         padding: 0;
         margin: 0 auto;
         display: flex;
+        flex-direction: row;
         align-items: center;
     }
 
