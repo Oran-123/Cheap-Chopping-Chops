@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Varela+Round&display=swap');
 
-:root {--primary-blue: #0A4BCD;}
+:root {
+    --primary-blue: #0A4BCD;
+    --accent-red:#da1818;
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -178,12 +182,12 @@ header {
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
-    background-color: #da1818;
+    background-color: var(--accent-red);
     color: #ffffff;
-    border: #da1818 .2rem solid;
+    border: var(--accent-red) .2rem solid;
     border-radius: .4rem;
     text-shadow: 0;
-    box-shadow: inset 0 0 .4rem #da1818, 0 0 1.4rem #da1818;
+    box-shadow: inset 0 0 .4rem var(--accent-red), 0 0 1.4rem var(--accent-red);
 
     Position: relative;
 }
@@ -191,7 +195,7 @@ header {
 .book-now-button::before {
     content: "";
     position: absolute;
-    background-color: #da1818;
+    background-color: var(--accent-red);
     top: 115%;
     left: 0;
     width: 100%;
@@ -644,8 +648,8 @@ label {
 
     .book-now-button {
         background-color: #ffffff;
-        color: #da1818;
-        text-shadow: 0 0 .8rem #da1818;
+        color: var(--accent-red);
+        text-shadow: 0 0 .8rem var(--accent-red);
     }
 
     .book-now-button::before {
@@ -655,7 +659,7 @@ label {
     }
 
     .book-now-button:hover {
-        background: #da1818;
+        background: var(--accent-red);
         text-shadow: 0;
         color: white;
 
@@ -680,7 +684,7 @@ label {
     .book-now-button:hover::before {
         content: "";
         position: absolute;
-        background-color: #da1818;
+        background-color: var(--accent-red);
         top: 115%;
         left: 0;
         width: 100%;
