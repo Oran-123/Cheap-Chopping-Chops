@@ -201,11 +201,8 @@ header {
 
 }
 
-/* Button hover effect only for screens >768px because the effect will stick on touch screen devicies such as tablets and mobile */
-
-
 /* about us section */
-.About-Container  {
+#about-Us  {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -213,7 +210,7 @@ header {
 }
 
 
-#about-text {
+#about-us-content {
     margin: 4rem 5rem;
     text-align: center;
 
@@ -224,6 +221,8 @@ header {
     margin: 2rem 0rem;
 }
 
+/* img in about us section */
+
 #about-img-outer {
     height: 40rem;
     background-image: url(../images/About-Us.jpg);
@@ -233,11 +232,6 @@ header {
     width: 100%;
 
 }
-
-
-/* about us section above 768px (larger then mobile and tablet) screen size*/
-
-
 
 /* Price section */
 
