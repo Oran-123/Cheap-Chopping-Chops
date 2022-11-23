@@ -40,13 +40,6 @@ header {
     flex-direction: row;
 }
 
-@media only screen and (min-width:576px) {
-
-    header {
-        justify-content: space-evenly;
-    }
-}
-
 #logo img {
     height: 12vh;
 }
@@ -55,14 +48,6 @@ header h1 {
     display: none;
 }
 
-@media only screen and (min-width:576px) {
-
-    header h1 {
-        display: block;
-        color: #ffffff;
-    }
-
-}
 
 /* hamburger menu specific to mobile devices (<577px), inspired by https://www.youtube.com/watch?v=xXze-haVm7ghttps://www.youtube.com/watch?v=xXze-haVm7g*/
 
@@ -73,16 +58,6 @@ nav {
     border-radius: 3px;
     margin: 0 1rem;
     position: relative;
-}
-
-@media only screen and (min-width:768px) {
-    nav {
-        width: fit-content;
-        height: 100%;
-        border-radius: 0;
-        margin: 0;
-        color: #ffffff;
-    }
 }
 
 /* Nav menu style*/
@@ -100,18 +75,6 @@ nav>ul {
     width: 100%;
     height: 100%;
     background: #0A4BCD;
-}
-
-@media only screen and (min-width:768px) {
-    nav>ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        position: relative;
-        width: auto;
-        height: auto;
-        top: 0;
-    }
 }
 
 nav>ul>li {
@@ -135,21 +98,7 @@ nav>ul>li>a {
     margin: 2vh 0;
 }
 
-@media only screen and (min-width:768px) {
-    nav>ul>li>a {
-        font-size: 1rem;
-        font-weight: bold;
-        width: fit-content;
-        margin: 0;
-        min-width: fit-content;
-        width: fit-content;
-    }
 
-    #nav-button>a {
-        font-size: 1rem;
-        margin-left: 1rem;
-    }
-}
 
 /* hamburger menu design */
 nav:before,
@@ -164,14 +113,6 @@ nav:after {
     background: #ffffff;
     transition: .4s ease, top .4s ease;
     transform: rotate(0deg) translateY(-50%);
-}
-
-@media only screen and (min-width:768px) {
-
-    nav:before,
-    nav:after {
-        display: none;
-    }
 }
 
 nav::before {
@@ -268,55 +209,6 @@ nav:focus ul {
 
 /* Button hover effect only for screens >768px because the effect will stick on touch screen devicies such as tablets and mobile */
 
-@media only screen and (min-width:768px) {
-    .book-now-button {
-        background-color: #ffffff;
-        color: #da1818;
-        text-shadow: 0 0 .8rem #da1818;
-    }
-
-    .book-now-button::before {
-        content: "";
-        filter: blur(0);
-        opacity: 0;
-    }
-
-    .book-now-button:hover {
-        background: #da1818;
-        text-shadow: 0;
-        color: white;
-
-        /* zoom effect as seen in love running */
-
-        animation-name: button-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes button-zoom {
-
-        from {
-            transform: scale(1);
-        }
-
-        to {
-            transform: scale(1.3);
-        }
-    }
-
-    .book-now-button:hover::before {
-        content: "";
-        position: absolute;
-        background-color: #da1818;
-        top: 115%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        transform: perspective(15rem) rotatex(55deg);
-        filter: blur(.9rem);
-        opacity: 0.7;
-    }
-}
 
 /* about us section */
 .About-Container  {
@@ -351,23 +243,7 @@ nav:focus ul {
 
 /* about us section above 768px (larger then mobile and tablet) screen size*/
 
-@media only screen and (min-width: 812px) {
-    .About-Container {
-        padding: 0;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
 
-    #about-text {
-        width: 50%;
-    }
-
-    #about-img-outer {
-        width: 50%;
-    }
-}
 
 /* Price section */
 
@@ -448,14 +324,7 @@ nav:focus ul {
     align-items: center;
 }
 
-@media only screen and (min-width:768px) {
 
-    #gallery-container {
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
 
 /* style of tiles which include customer image and description */
 
@@ -468,11 +337,6 @@ nav:focus ul {
     box-shadow: 0 0 1.2rem #708FFB;
 }
 
-@media only screen and (min-width:768px) {
-    .container-gallery-tile {
-        margin: 2.5rem;
-    }
-}
 
 .content {
     max-width: 16.5rem;
@@ -533,14 +397,6 @@ nav:focus ul {
     overflow: hidden;
 }
 
-@media only screen and (min-width:768px) {
-    #location-container {
-        flex-direction: row;
-        justify-items: center;
-        flex-wrap: nowrap;
-    }
-}
-
 /* store location information  */
 
 .store-locations {
@@ -583,14 +439,7 @@ nav:focus ul {
     align-items: center;
 }
 
-@media only screen and (min-width:768px) {
-    #how-to-book-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
 
-}
 
 /* Circles for each step as inspired by https://stackoverflow.com/questions/4840736/easier-way-to-create-circle-div-than-using-an-image */
 
@@ -654,13 +503,7 @@ nav:focus ul {
     align-items: center;
 }
 
-@media only screen and (min-width:1200px) {
-    #Booking-Form-Wrapper>Div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-}
+
 
 /* Booking form background */
 
@@ -743,4 +586,154 @@ label {
 #social-icons>li>a {
     color: #ffffff;
     font-size: 140%;
+}
+
+@media only screen and (min-width:1200px) {
+    #Booking-Form-Wrapper>Div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 812px) {
+    .About-Container {
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #about-text {
+        width: 50%;
+    }
+
+    #about-img-outer {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+
+    nav {
+        width: fit-content;
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+        color: #ffffff;
+    }
+    
+    nav>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: relative;
+        width: auto;
+        height: auto;
+        top: 0;
+    }
+
+    nav>ul>li>a {
+        font-size: 1rem;
+        font-weight: bold;
+        width: fit-content;
+        margin: 0;
+        min-width: fit-content;
+        width: fit-content;
+    }
+
+    #nav-button>a {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+   
+    nav:before,
+    nav:after {
+        display: none;
+    }
+
+    .book-now-button {
+        background-color: #ffffff;
+        color: #da1818;
+        text-shadow: 0 0 .8rem #da1818;
+    }
+
+    .book-now-button::before {
+        content: "";
+        filter: blur(0);
+        opacity: 0;
+    }
+
+    .book-now-button:hover {
+        background: #da1818;
+        text-shadow: 0;
+        color: white;
+
+        /* zoom effect as seen in love running */
+
+        animation-name: button-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes button-zoom {
+
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.3);
+        }
+    }
+
+    .book-now-button:hover::before {
+        content: "";
+        position: absolute;
+        background-color: #da1818;
+        top: 115%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: perspective(15rem) rotatex(55deg);
+        filter: blur(.9rem);
+        opacity: 0.7;
+    }
+
+    #gallery-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-gallery-tile {
+        margin: 2.5rem;
+    }
+
+    #location-container {
+        flex-direction: row;
+        justify-items: center;
+        flex-wrap: nowrap;
+    }
+
+    #how-to-book-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+}
+
+
+@media only screen and (min-width:576px) {
+
+    header {
+        justify-content: space-evenly;
+    }
+
+    header h1 {
+        display: block;
+        color: #ffffff;
+    }
 }
