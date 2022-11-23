@@ -3,6 +3,7 @@
 :root {
     --primary-blue: #0A4BCD;
     --accent-red:#da1818;
+    --accent-blue: #708FFB;
 
 }
 * {
@@ -326,8 +327,8 @@ header {
     width: fit-content;
     margin: 2.5rem 0;
     border-radius: 1rem;
-    background-color: #708FFB;
-    box-shadow: 0 0 1.2rem #708FFB;
+    background-color: var(--accent-blue);
+    box-shadow: 0 0 1.2rem var(--accent-blue);
 }
 
 
@@ -440,14 +441,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #708FFB;
-    border: solid 4px #708FFB;
+    background-color: var(--accent-blue);
+    border: solid 4px var(--accent-blue);
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
     margin: 5rem;
     color: #ffffff;
-    box-shadow: 0 0 1.2rem #708FFB;
+    box-shadow: 0 0 1.2rem var(--accent-blue);
     /* text-shadow: .0 0 0.8rem #ffffff; */
     position: relative;
 }
@@ -457,7 +458,7 @@ header {
 .booking-instructions::before {
     content: "";
     position: absolute;
-    background-color: #708FFB;
+    background-color: var(--accent-blue);
     top: 75%;
     left: 0;
     width: 100%;
@@ -503,9 +504,9 @@ header {
 #form-container {
     align-items: center;
     margin: 2.5rem;
-    background-color: #708FFB;
+    background-color: var(--accent-blue);
     width: fit-content;
-    box-shadow: 0 0 1.6rem #708FFB;
+    box-shadow: 0 0 1.6rem var(--accent-blue);
     border-radius: .5rem;
 
 }
