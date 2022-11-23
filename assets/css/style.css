@@ -610,7 +610,7 @@ label {
 
 @media only screen and (min-width:768px) {
 
-    nav {
+    #nav-menu {
         width: fit-content;
         height: 100%;
         border-radius: 0;
@@ -618,7 +618,7 @@ label {
         color: #ffffff;
     }
     
-    nav>ul {
+    #nav-list {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -628,7 +628,7 @@ label {
         top: 0;
     }
 
-    nav>ul>li>a {
+    .nav-list-link {
         font-size: 1rem;
         font-weight: bold;
         width: fit-content;
@@ -637,13 +637,13 @@ label {
         width: fit-content;
     }
 
-    #nav-button>a {
+    #nav-button {
         font-size: 1rem;
         margin-left: 1rem;
     }
    
-    nav:before,
-    nav:after {
+    #nav-menu:before,
+    #nav-menu:after {
         display: none;
     }
 
