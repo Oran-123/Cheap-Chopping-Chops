@@ -95,8 +95,8 @@ header {
 
 
 /* hamburger menu design */
-nav:before,
-nav:after {
+#nav-menu:before,
+#nav-menu:after {
     content: '';
     display: inline-block;
     height: 2px;
@@ -109,27 +109,27 @@ nav:after {
     transform: rotate(0deg) translateY(-50%);
 }
 
-nav::before {
+#nav-menu::before {
     top: 30%;
 }
 
-nav::after {
+#nav-menu::after {
     top: 70%;
 
 }
 
 /* hamburger menu in focus rotate effect  */
-nav:focus::before {
+#nav-menu:focus::before {
     top: 50%;
     transform: rotate(30deg) translateY(-50%)
 }
 
-nav:focus::after {
+#nav-menu:focus::after {
     top: 50%;
     transform: rotate(-30deg) translateY(-50%)
 }
 
-nav:focus ul {
+#nav-menu:focus ul {
     display: flex;
 
 }
