@@ -40,11 +40,11 @@ header {
     flex-direction: row;
 }
 
-#logo img {
+#logo-img {
     height: 12vh;
 }
 
-header h1 {
+#logo-text {
     display: none;
 }
 
