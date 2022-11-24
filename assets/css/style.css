@@ -151,7 +151,7 @@ header {
 #hero-image {
     height: 45rem;
     width: 100%;
-    background: url(../images/Hero\ Image.webp) no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -231,7 +231,7 @@ header {
 
 #about-img-outer {
     height: 40rem;
-    background-image: url(../images/about-us.jpg);
+    background-image: url("../images/about-us.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -382,7 +382,7 @@ header {
     justify-items: center;
     width: 100%;
 
-    background-image: url(../images/locations.jpg);
+    background-image: url("../images/locations.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
