@@ -342,7 +342,7 @@ header {
 
 /* image on gallery tile */
 
-.img {
+.tile-img {
     height: 15rem;
     width: 100%;
     background-color: lightblue;
@@ -726,7 +726,7 @@ label {
         justify-content: space-evenly;
     }
 
-    header h1 {
+    #logo-text {
         display: block;
         color: #ffffff;
     }
