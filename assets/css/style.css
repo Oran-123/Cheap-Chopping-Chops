@@ -144,18 +144,16 @@ header {
 
 /* Hero Image */
 #hero-outer {
-    height: 45rem;
+    height: 88vh;
+    margin-top: 12vh;
     width: 100%;
     overflow: hidden;
 
 }
 
 #hero-image {
-    height: 45rem;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 
     /* zoom effect as seen in love running */
 
