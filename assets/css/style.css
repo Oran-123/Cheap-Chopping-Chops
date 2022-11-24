@@ -649,11 +649,11 @@ label {
         display: none;
     }
 
-    .book-now-button {
-        background-color: #ffffff;
-        color: var(--accent-red);
+    /* .book-now-button {
+        background-color: var(--accent-red);
+        color: #ffffff;
         text-shadow: 0 0 .8rem var(--accent-red);
-    }
+    } */
 
     .book-now-button::before {
         content: "";
