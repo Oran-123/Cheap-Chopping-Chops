@@ -231,7 +231,7 @@ header {
 
 /* img in about us section */
 
-#about-img-outer {
+#about-img {
     height: 40rem;
     background-image: url("../images/about-us.jpg");
     background-repeat: no-repeat;
@@ -605,7 +605,7 @@ label {
         width: 50%;
     }
 
-    #about-img-outer {
+    #about-img {
         width: 50%;
     }
 }
@@ -648,12 +648,6 @@ label {
     #nav-menu:after {
         display: none;
     }
-
-    /* .book-now-button {
-        background-color: var(--accent-red);
-        color: #ffffff;
-        text-shadow: 0 0 .8rem var(--accent-red);
-    } */
 
     .book-now-button::before {
         content: "";
