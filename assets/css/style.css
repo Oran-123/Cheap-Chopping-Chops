@@ -260,6 +260,10 @@ header {
 
 /* box that contains the price list  */
 
+#price{
+    padding-bottom: 5rem;
+}
+
 #price-container {
     display: flex;
     flex-direction: column;
@@ -297,12 +301,13 @@ header {
 
 /* Gallery section */
 
-#Gallery {
+#gallery {
     width: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5rem;
 }
 
 /* gallery content wrapper for all content in the gallery section*/
