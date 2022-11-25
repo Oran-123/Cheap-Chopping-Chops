@@ -255,7 +255,7 @@ header {
 /* price container */
 
 #price-wrapper {
-    margin: 2.5rem 5rem 2.5rem 5rem;
+    margin: 0 5rem ;
 }
 
 /* box that contains the price list  */
@@ -571,18 +571,18 @@ label {
     overflow: hidden;
 }
 
-#social-icons {
+#social-icons-list {
     text-align: center;
     margin: 2.5rem;
 }
 
-#social-icons>li {
+.social-icons-list-item {
 
     margin: 0 2rem;
     display: inline;
 }
 
-#social-icons>li>a {
+.social-icons-link {
     color: #ffffff;
     font-size: 140%;
 }
