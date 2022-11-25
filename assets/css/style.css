@@ -557,7 +557,7 @@ label {
 
 /* Footer section */
 
-#Footer {
+#footer {
     background: var(--primary-blue);
     width: 100%;
     height: fit-content;
@@ -569,7 +569,7 @@ label {
     margin: 2.5rem;
 }
 
-.social-icons-list-item {
+#social-icons-list > li{
 
     margin: 0 2rem;
     display: inline;
