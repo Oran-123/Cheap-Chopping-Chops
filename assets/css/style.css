@@ -224,6 +224,7 @@ header {
 #about-us-content {
     margin: 0rem 5rem;
     text-align: center;
+    padding-bottom: 5rem;
 
 }
 
@@ -304,6 +305,7 @@ header {
     align-items: center;
     justify-content: center;
     padding-bottom: 5rem;
+    margin-top: 0;
 }
 
 /* gallery content wrapper for all content in the gallery section*/
@@ -315,6 +317,10 @@ header {
     flex-direction: column;
     align-items: center;
 
+}
+
+#gallery-wrapper > .section-title{
+    margin-top: 0;
 }
 
 /* container for all tiles to set dispaly */
@@ -379,6 +385,10 @@ header {
 #location-wrapper {
     width: 100%;
 }
+
+#location-wrapper > .section-title {
+    margin-top: 0;
+    }
 
 /* direction of the store information */
 
@@ -475,6 +485,7 @@ header {
 #booking-form {
     background: #ffffff;
     overflow: hidden;
+    padding-bottom: 5rem;
 }
 
 /* Booking section content container */
@@ -602,7 +613,6 @@ label {
 
     #about-us-content {
         width: 50%;
-        margin-left: 0;
     }
 
     #about-img {
