@@ -410,13 +410,9 @@ header {
     text-align: center;
 }
 
-.store-locations>h2 {
-    color: #ffffff;
-}
-
 /* How to book section */
 
-#Booking {
+#booking {
     background: #ffffff;
     overflow: hidden;
 
@@ -475,7 +471,7 @@ header {
 
 /* Booking-Form section */
 
-#Booking-Form {
+#booking-form {
     background: #ffffff;
     overflow: hidden;
 }
