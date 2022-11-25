@@ -187,7 +187,6 @@ header {
     color: #ffffff;
     border: var(--accent-red) .2rem solid;
     border-radius: .4rem;
-    text-shadow: 0;
     box-shadow: inset 0 0 .4rem var(--accent-red), 0 0 1.4rem var(--accent-red);
 
     Position: relative;
@@ -287,7 +286,6 @@ header {
 
 .cost {
     font-weight: bold;
-    align-items: right;
 }
 
 /* book now button in price section */
@@ -663,7 +661,6 @@ label {
 
     .book-now-button:hover {
         background: var(--accent-red);
-        text-shadow: 0;
         color: white;
 
         /* zoom effect as seen in love running */
