@@ -278,10 +278,6 @@ header {
     align-items: center;
 }
 
-#price-list>h1 {
-    text-align: center;
-}
-
 #price-list>ul {
     flex-direction: row;
     justify-content: center;
