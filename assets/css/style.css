@@ -423,6 +423,10 @@ header {
     text-align: center;
 }
 
+.address{
+    height: 5.4rem;
+    justify-content: center;
+}
 /* How to book section */
 
 #booking {
