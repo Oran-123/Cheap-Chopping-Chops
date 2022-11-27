@@ -269,6 +269,7 @@ header {
     flex-direction: column;
     list-style: none;
     margin: 0 5rem;
+    margin-bottom: 2rem;
 }
 
 .cost {
@@ -277,9 +278,9 @@ header {
 
 /* book now button in price section */
 
-#price-button {
+/* #price-button {
     margin: 2.5rem;
-}
+} */
 
 /* price section image */
 
