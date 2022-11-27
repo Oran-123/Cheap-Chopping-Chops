@@ -272,6 +272,16 @@ header {
     margin-bottom: 2rem;
 }
 
+.price-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0; 
+}
+
+.price-list-item-desc{
+    text-align: left;
+}
 .cost {
     font-weight: bold;
 }
