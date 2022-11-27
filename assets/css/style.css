@@ -244,21 +244,15 @@ header {
 
 }
 
-/* Price section */
-
-#price {
-    background: #ffffff;
-    width: 100%;
-    overflow: hidden;
-}
-
 /*price section */
 
 #price{
-    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #ffffff;
+    width: 100%;
+    overflow: hidden;
 }
 
 #price-container {
@@ -266,6 +260,7 @@ header {
     flex-direction: column;
     align-items: center;
     margin: 0 5rem;
+    padding-bottom: 5rem;
 }
 
 /*price list */
