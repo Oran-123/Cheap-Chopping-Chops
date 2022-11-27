@@ -586,7 +586,7 @@ label {
     }
 }
 
-@media only screen and (min-width: 812px) {
+/* @media only screen and (min-width: 812px) {
     #about-us{
         display: flex;
         flex-direction: column;
@@ -608,7 +608,7 @@ label {
     #about-img {
         width: 50%;
     }
-}
+} */
 
 @media only screen and (min-width:768px) {
 
@@ -688,6 +688,28 @@ label {
         transform: perspective(15rem) rotatex(55deg);
         filter: blur(.9rem);
         opacity: 0.7;
+    }
+
+    #about-us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-us-container {
+        padding: 0;
+        margin: 0 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 120rem;
+    }
+
+    #about-us-content {
+        width: 50%;
+    }
+
+    #about-img {
+        width: 50%;
     }
 
     #gallery-container {
