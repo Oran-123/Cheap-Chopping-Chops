@@ -252,16 +252,13 @@ header {
     overflow: hidden;
 }
 
-/* price container */
-
-/* #price-wrapper {
-    margin: 0 5rem ;
-} */
-
-/* box that contains the price list  */
+/*price section */
 
 #price{
     padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #price-container {
@@ -271,6 +268,7 @@ header {
     margin: 0 5rem;
 }
 
+/*price list */
 #price-list {
     width: 60%;
     border: 1px solid black;
@@ -288,6 +286,17 @@ header {
 
 #price-button {
     margin: 2.5rem;
+}
+
+/* price section image */
+
+#price-list-img {
+    height: 40rem;
+    background-image: url("../images/price-list-img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
 }
 
 /* Gallery section */
