@@ -360,11 +360,6 @@ header {
 .description {
     color: #ffffff;
     margin-top: 1rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 7;
-    -webkit-box-orient: vertical;
 }
 
 /* book now button gallery section */
@@ -439,6 +434,7 @@ header {
 
 .booking-instructions {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--accent-blue);
@@ -468,6 +464,16 @@ header {
     opacity: 0.7;
 }
 
+.instruction-title{
+    color: #ffffff;
+    margin-bottom: .5rem;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.instruction-details{
+    text-align: center;
+}
 /* Booking-Form section */
 
 #booking-form {
