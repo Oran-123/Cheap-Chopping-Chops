@@ -144,8 +144,6 @@ header {
 
 /* Hero Image */
 #hero-outer {
-    height: 88vh;
-    margin-top: 12vh;
     width: 100%;
     overflow: hidden;
 
@@ -153,6 +151,8 @@ header {
 
 #hero-image {
     width: 100%;
+    margin-top: 12vh;
+
     
 
     /* zoom effect as seen in love running */
