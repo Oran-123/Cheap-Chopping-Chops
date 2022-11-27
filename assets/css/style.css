@@ -317,10 +317,6 @@ header {
 
 }
 
-#gallery-wrapper > .section-title{
-    margin-top: 0;
-}
-
 /* container for all tiles to set dispaly */
 #gallery-container {
     display: flex;
