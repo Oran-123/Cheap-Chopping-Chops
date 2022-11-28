@@ -628,6 +628,14 @@ label {
         width: fit-content;
     }
 
+    .nav-list-link:hover {
+        text-decoration: underline;
+    }
+
+    .nav-list-link:active {
+        color: var(--accent-red);
+    }
+
     #nav-button {
         font-size: 1rem;
         margin-left: 1rem;
