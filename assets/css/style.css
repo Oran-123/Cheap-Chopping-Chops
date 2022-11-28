@@ -810,6 +810,10 @@ label {
         justify-content: space-evenly;
     }
 
+    #logo-text-link{
+        text-decoration: none;
+        color: #ffffff;
+    }
     #logo-text {
         display: block;
         color: #ffffff;
