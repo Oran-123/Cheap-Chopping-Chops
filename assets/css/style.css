@@ -291,12 +291,6 @@ header {
     font-weight: bold;
 }
 
-/* book now button in price section */
-
-/* #price-button {
-    margin: 2.5rem;
-} */
-
 /* price section image */
 
 #price-list-img {
@@ -461,7 +455,6 @@ header {
     margin: 5rem;
     color: #ffffff;
     box-shadow: 0 0 1.2rem var(--accent-blue);
-    /* text-shadow: .0 0 0.8rem #ffffff; */
     position: relative;
 }
 
