@@ -406,11 +406,14 @@ header {
     color: #ffffff;
     border: 1px solid #ffffff;
     background-color: rgba(48, 113, 247, .6);
-    width: 100%;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.location-details{
+    margin-bottom: .5rem;
 }
 
 .address {
