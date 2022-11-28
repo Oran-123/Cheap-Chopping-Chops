@@ -602,9 +602,7 @@ label {
         justify-content: center;
     }
 }
-
-
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:992px) {
 
     #nav-menu {
         width: fit-content;
@@ -736,16 +734,6 @@ label {
         width: 50%;
     }
 
-    #gallery-container {
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .container-gallery-tile {
-        margin: 2.5rem;
-    }
-
     #location-container {
         flex-direction: row;
         justify-items: center;
@@ -764,6 +752,21 @@ label {
         transform: translateY(-.5rem);
 
     }
+}
+
+
+@media only screen and (min-width:768px) {
+
+    #gallery-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-gallery-tile {
+        margin: 2.5rem;
+    }
+   
 }
 
 
