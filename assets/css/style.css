@@ -334,8 +334,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
-
 
 
 /* style of tiles which include customer image and description */
@@ -347,6 +347,7 @@ header {
     border-radius: 1rem;
     background-color: var(--accent-blue);
     box-shadow: 0 0 1.2rem var(--accent-blue);
+    height: 39.6rem; 
 }
 
 /* text line clamp inspired by https://css-tricks.com/almanac/properties/l/line-clamp/ */
@@ -357,10 +358,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    display: -webkit-box;
-    -webkit-line-clamp: 10;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
 }
 
 /* image on gallery tile */
