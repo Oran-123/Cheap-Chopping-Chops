@@ -547,6 +547,9 @@ label {
     padding: .5rem;
     width: 90%;
     border-radius: 1rem;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
 }
 
 #store {
@@ -557,6 +560,12 @@ label {
 #enquiry {
     padding: 1rem 1rem;
     width: 88%;
+}
+
+#enquiry::placeholder{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
 }
 
 #booking-form-button {
