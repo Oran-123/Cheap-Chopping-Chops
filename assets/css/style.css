@@ -387,19 +387,18 @@ header {
 /* direction of the store information */
 
 #location-container {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-items: center;
-    width: 100%;
+    flex-wrap: nowrap;
 
     background-image: url("../images/locations.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    height: 30rem;
-    width: 100%;
     overflow: hidden;
 }
+
+
 
 /* store location information  */
 
@@ -407,11 +406,10 @@ header {
     color: #ffffff;
     border: 1px solid #ffffff;
     background-color: rgba(48, 113, 247, .6);
-    width: 33%;
+    width: 100%;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: center;
 }
 
@@ -735,9 +733,19 @@ label {
     }
 
     #location-container {
+        display: flex;
         flex-direction: row;
         justify-items: center;
-        flex-wrap: nowrap;
+        height: 30rem;
+    }
+
+    .store-locations {
+        width: 33%;
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
     }
 
     #twitter-icon:hover,
@@ -760,7 +768,8 @@ label {
     .container-gallery-tile {
         margin: 2.5rem;
     }
-    
+
+
     #how-to-book-container {
         display: flex;
         flex-direction: row;
