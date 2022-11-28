@@ -67,7 +67,7 @@ header {
     width: 4rem;
     height: 2.5rem;
     border-radius: 3px;
-    margin: 0 1rem;
+    margin: 0 5rem 0 1rem;
     position: relative;
 }
 
@@ -802,4 +802,7 @@ label {
         display: block;
         color: #ffffff;
     }
+
+    #nav-menu {
+    margin: 0 1rem;
 }
