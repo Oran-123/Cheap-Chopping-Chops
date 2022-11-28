@@ -205,18 +205,18 @@
                 <div id="form-container">
                     <form id="Form" method="post" action="https://formdump.codeinstitute.net">
                         <label for="fname">Full Name</label>
-                        <input class="form-field" type="text" id="fname" name="fname">
+                        <input class="form-field" type="text" id="fname" name="fname" required>
                         <label for="email">Email</label>
-                        <input class="form-field" type="email" id="email" name="email">
+                        <input class="form-field" type="email" id="email" name="email" required>
                         <label for="store">Select Store</label>
-                        <select class="form-field" name="store" id="store" form="Form">
+                        <select class="form-field" name="store" id="store" form="Form" required>
                             <Option class="store" value="store1">Castleknock</Option>
                             <Option class="store" value="store2">Blanchardstown</Option>
                             <Option class="store" value="store3">Stoney Batter</Option>
                         </select>
                         <label for="enquiry">Booking Enquiry</label>
                         <textarea class="form-field" name="enquiry" id="enquiry" cols="30" rows="10"
-                            placeholder="Tell us about your booking..."></textarea>
+                            placeholder="Tell us what time and date you would like to make your booking for..." required></textarea>
                         <input type="submit" value="Send" class="book-now-button" id="booking-form-button">
                     </form>
                 </div>
