@@ -243,6 +243,9 @@ The location section consists of information on the three stores overlaying an i
 
 ![locations-medium-below](assets/images/readme/locations/locations-medium-below.png)
 
+### How to book steps   
+
+
 ### Booking Form  
 
 * The form on this page includes the following fields 
@@ -255,6 +258,9 @@ The location section consists of information on the three stores overlaying an i
 * There is also a map with a pin for each of the four stores 
 
 ![booking-form](assets/images/readme/booking-form.png)
+
+### Map    
+
 
 ### Social media icons  
 
