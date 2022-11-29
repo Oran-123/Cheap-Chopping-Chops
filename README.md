@@ -160,7 +160,7 @@ The wireframes are below:
 The navigation bar includes a logo which will have an embedded link to the home page, and a menu for users to navigate throughout the site. 
 The navigation bar will be fixed so it is always visible on screen. The navigation bar will be fully responsive on different screen sizes. 
 
-Large Screens and up
+#### Large Screens and up
 
 * Full width of the screen with the menu items aligned to the right of the screen (Home, Price, Gallery, Locations and Book Now)
 * A line will be visible on hover so that it is clear to the user which link they are going to click 
@@ -177,7 +177,7 @@ Large Screens and up
 
 ![Nav menu](assets/images/readme/navigation-bar/nav-menu-active-effect.png)
 
-Small to Medium
+#### Small to Medium
 
 * A hamburger menu will replace the listed menu items on smaller screens to optimize screen space 
 * The menu items will be visible after the hamburger menus is expanded by a user clicking it 
@@ -185,7 +185,7 @@ Small to Medium
 
 ![Nav bar small to medium screens](assets/images/readme/navigation-bar/nav-bar-medium-%26-small-screens.png)
 
-Extra Small 
+#### Extra Small 
 
 * Only the logo and the hamburger menu will be visible at this screen size 
 
@@ -231,13 +231,13 @@ Default button on medium and below screen sizes:
 
 The location section consists of information on the three stores overlaying an image. The sections provide an address, opening days and times for each store 
 
-Large Screens and up
+#### Large Screens and up
 
 * The locations are listed as individual rectangular sections horizontally across the width of the screen 
 
 ![locations-large-plus](assets/images/readme/locations/locations-large-plus.png)
 
-Mediun screens and below 
+#### Mediun screens and below 
 
 * The locations are listed as individual rectangular sections vertically
 
