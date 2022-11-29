@@ -328,6 +328,8 @@ During teting I encountered the following issues:
 
 * I intially decided to create my site without a max widht on the content. I found that on larger screens above 1200px that the content stretched to wide and it did not present well. I applied a max-width of 1200px across several sections. 
 
+* I origianlly used a line clamp for the text in the gallery tiles but this prevented all of the text from being displayed. I removed this line clamp and applied a fix height to all of the tiles. 
+
 ## Unfixed Bugs
 
 * The navigating links in the hamburger menu do not work as expected on certain devices and browsers. For example, when the links are clicked on chrome the hamburger menu closes without linking the user to the specific section which they have clicked. However, on an iPhone SE using Safari the hamburger menu works as expected. 
