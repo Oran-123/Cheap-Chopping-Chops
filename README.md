@@ -291,18 +291,18 @@ The location section consists of information on the three stores overlaying an i
 
 ## Tools 
 
-* Gitpod[Gitpod](https://www.gitpod.io/ "Gitpod")
-* Github[Github](https://github.com/ "Github")
-* Balsamic[Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
-* W3C HTML Validation Service[W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML Validation Service")
-* W3C CSS Validation Service[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service")
-* Colourmind[Colourmind](http://colormind.io/ "Colourmind")
-* Font Awesome library[font-awesome](https://fontawesome.com/ "Font Awesome")
-* Google Fonts[google-fonts](https://fonts.google.com/ "Google Fonts")
-* Pexles[Pexles](https://www.pexels.com/ "Pexles")
-* Canva[Canva](https://www.canva.com/ "Canva")
-* Chrome Dev Tools[Chrome Dev Tools](http://colormind.io/ "Chrome Dev Tools")
-* SauceLabs[SauceLabs](https://saucelabs.com/platform/mobile-emulators-and-simulators "SauceLabs")
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Github](https://github.com/ "Github")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML Validation Service")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service")
+* [Colourmind](http://colormind.io/ "Colourmind")
+* [font-awesome](https://fontawesome.com/ "Font Awesome")
+* [google-fonts](https://fonts.google.com/ "Google Fonts")
+* [Pexles](https://www.pexels.com/ "Pexles")
+* [Canva](https://www.canva.com/ "Canva")
+* [Chrome Dev Tools](http://colormind.io/ "Chrome Dev Tools")
+* [SauceLabs](https://saucelabs.com/platform/mobile-emulators-and-simulators "SauceLabs")
 
 # Testing 
 
