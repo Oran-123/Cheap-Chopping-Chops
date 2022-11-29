@@ -1,4 +1,4 @@
-![Cheap Chopping Chops logo](assets/images/logo.png)
+![Cheap Chopping Chops logo](assets/images/readme/small-logo.png)
 
 
 # Goal For This Project 
