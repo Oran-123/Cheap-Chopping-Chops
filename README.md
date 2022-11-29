@@ -164,14 +164,25 @@ The navigation bar will be fixed so it is always visible on screen. The navigati
 
 Large Screens and up
 
-* Full width of the screen with the menu items aligned to the right of the screen (Home, Price, Styles and Contact Us)
+* Full width of the screen with the menu items aligned to the right of the screen (Home, Price, Gallery, Locations and Book Now)
 * A line will be visible on hover so that it is clear to the user which link they are going to click 
 * To help the user identify which page they are currently on the text for that page will change colour 
 
-Medium to X-Small
+![Nav bar large screens and up](assets/images/readme/navigation-bar/nav-bar-large-screens.png)
+
+Small to Medium
 
 * A hamburger menu will replace the listed menu items on smaller screens to optimize screen space 
 * The menu items will be visible after the hamburger menus is expanded by a user clicking it 
+* Both the logo and the brand name will also be visible at these screen sizes
+
+![Nav bar small to medium screens](assets/images/readme/navigation-bar/nav-bar-medium-%26-small-screens.png)
+
+Extra Small 
+
+* Only the logo and the hamburger menu will be visible at this screen size 
+
+![Nav bar extra small screens](assets/images/readme/navigation-bar/nav-bar-extra-smalls-screens.png)
 
 ### Landing Page 
 
