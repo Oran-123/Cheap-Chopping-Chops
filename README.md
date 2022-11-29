@@ -182,6 +182,9 @@ Extra Small
 
 ![Nav bar extra small screens](assets/images/readme/navigation-bar/nav-bar-extra-smalls-screens.png)
 
+### Hamburger Menu
+
+
 ### Book Now Button
 
 * The book now button was styled so that it appears as if it illuminiscent or glowing. For large screens and up when a user hovers over the button it expands in size and a shadow effect before the button is applied. These features are applied by default on screens that are medium and below.
@@ -199,13 +202,17 @@ Default button on medium and below screen sizes:
 ![Default button](assets/images/readme/button/button-default-medium-and-below.png)
 
 
-### Landing Page 
+### Hero Image 
 
 * The main image on the landing page will portray the main concepts of the website. The image will be coloured and show a smiling customer who has recently had their hair cut. The image is clearly displaying a customer happy with the service and it is also immediately clear to a visitor what the purpose of the website is. 
 
 ![hero-image](assets/images/readme/hero-image-readme.png)
 
-### Location Section 
+### Gallery tiles 
+
+* The gallery section includes rectangular tyles with images that display example hair cuts that were submitted of customers 
+
+### Location information 
 
 The location section consists of information on the three stores overlaying an image. The sections provide an address, opening days and times for each store 
 
@@ -221,16 +228,12 @@ Mediun screens and below
 
 ![locations-medium-below](assets/images/readme/locations/locations-medium-below.png)
 
-### Booking Form Section 
+### Booking Form  
 
 * The form on this page includes radio buttons so that users can either make a general query or a booking enquiry for a specific store 
 * The fields are all required fields and the email field requires the user to enter a value that follows a valid email format
 * There is also a map with a pin for each of the four stores 
 * A confirmation page is displayed after the user submits the form successfully 
-
-### Gallery Section 
-
-* The gallery section includes rectangular tyles with images that display example hair cuts that were submitted of customers 
 
 ### Footer Section 
 
@@ -238,6 +241,14 @@ Mediun screens and below
 * There is also a page list so users can access the various pages from the footer 
 
 ## Features to be implemented 
+
+### Hamburger menu exit button
+
+### Embeded google map with multiple pins 
+
+### Hamburger menu exit button
+
+### Online booking system 
 
 # Technologies 
 
