@@ -203,7 +203,7 @@ Default button on medium and below screen sizes:
 
 * The main image on the landing page will portray the main concepts of the website. The image will be coloured and show a smiling customer who has recently had their hair cut. The image is clearly displaying a customer happy with the service and it is also immediately clear to a visitor what the purpose of the website is. 
 
-
+![Default button](assets/images/readme/hero-image-readme.png)
 
 ### Book Now Section 
 
