@@ -340,6 +340,18 @@ During teting I encountered the following issues:
 
 # Deployment
 
+After the code for this website was written, committed and pushed to github, it was then deployed using GitHub by following the below steps:
+
+* Open Github
+* Navigate to the repository on GitHub using the search bar
+* Within the repository click "settings"
+* On the settings tab click "Pages" on the side navigation 
+* For the sourse dropdown select "Deploy from branch"
+* In the branch section select "Main" on the first drop down menu 
+* In the branch section select "/(root)" on the second drop down menu
+* Then press save 
+* Now the website is live on https://oran-123.github.io/Cheap-Chopping-Chops/#price
+* If any changes are required they can be written, committed and pushed to GitHub. The website will update shortly after the commits are pushed. 
 # Credits 
 
 For code inspiration:
