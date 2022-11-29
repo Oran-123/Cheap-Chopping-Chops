@@ -286,4 +286,31 @@ The location section consists of information on the three stores overlaying an i
 
 ## Languages 
 
+* HTML [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* CSS [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
 ## Libraries 
+
+* Google Fonts [google-fonts](https://fonts.google.com/ "Google Fonts")
+* Font Awesome libary  [font-awesome](https://fontawesome.com/ "Font Awesome")
+
+## Tools 
+
+* Gitpod
+* Github
+* W3C HTML Validation Service
+* W3C CSS Validation Service
+* Colourmind
+* Font Awesome library
+* Google Fonts
+* Pexles
+* Canva
+* Google Dev Tools 
+
+# Testing 
+
+## Unfixed Bugs
+
+# Deployment
+
+# Credits 
