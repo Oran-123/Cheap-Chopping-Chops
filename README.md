@@ -336,3 +336,11 @@ During teting I encountered the following issues:
 # Deployment
 
 # Credits 
+
+For code inspiration:
+
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") 
+* [Kevin Powel](https://www.youtube.com/@KevinPowell "Kevin Powel")
+* [Before Semicolon Youtube Channel](https://www.youtube.com/@BeforeSemicolon "Before Semicolon Youtube Channel")
+
+
