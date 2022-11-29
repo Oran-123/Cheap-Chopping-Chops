@@ -203,23 +203,23 @@ Default button on medium and below screen sizes:
 
 * The main image on the landing page will portray the main concepts of the website. The image will be coloured and show a smiling customer who has recently had their hair cut. The image is clearly displaying a customer happy with the service and it is also immediately clear to a visitor what the purpose of the website is. 
 
-![Default button](assets/images/readme/hero-image-readme.png)
+![hero-image](assets/images/readme/hero-image-readme.png)
 
 ### Location Section 
 
-Desktop Screens 
+The location section consists of information on the three stores overlaying an image. The sections provide an address, opening days and times for each store 
+
+Large Screens and up
 
 * The locations are listed as individual rectangular sections horizontally across the width of the screen 
-* The sections provide an address for each store 
-* Each section links the user to the contact us page where all four pins are visible on the map 
 
-Tablet Screens 
+![locations-large-plus](assets/images/readme/locations/locations-large-plus.png)
 
-* These sections are listed in two rows 
+Mediun screens and below 
 
-Phone Screens 
+* The locations are listed as individual rectangular sections vertically
 
-* Content is all listed vertically 
+![locations-medium-below](assets/images/readme/locations/locations-medium-below.png)
 
 ### Booking Form Section 
 
