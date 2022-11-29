@@ -351,7 +351,8 @@ After the code for this website was written, committed and pushed to github, it 
 * In the branch section select "/(root)" on the second drop down menu
 * Then press save 
 * Now the website is live on https://oran-123.github.io/Cheap-Chopping-Chops/#price
-* If any changes are required they can be written, committed and pushed to GitHub. The website will update shortly after the commits are pushed. 
+* If any changes are required they can be written, committed and pushed to GitHub. The website will update shortly after the commits are pushed.
+
 # Credits 
 
 For code inspiration:
@@ -359,5 +360,15 @@ For code inspiration:
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin") 
 * [Kevin Powel](https://www.youtube.com/@KevinPowell "Kevin Powel")
 * [Before Semicolon Youtube Channel](https://www.youtube.com/@BeforeSemicolon "Before Semicolon Youtube Channel")
+
+For content and style inspiration: 
+
+* [Sam's Barbers](https://samsbarbers.com/ "Sam's Barbers") 
+* [Area9](https://www.area9.ie/ "Area9") 
+* [Waldorf Barbers](https://www.waldorfbarbers.shop/ "Waldorf Barbers") 
+* [The Barber's Bar](https://thebarbers.ie/ "The Barber's Bar") 
+
+
+
 
 
