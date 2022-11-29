@@ -281,13 +281,13 @@ The location section consists of information on the three stores overlaying an i
 
 ## Languages 
 
-* HTML[HTML](https://en.wikipedia.org/wiki/HTML "HTML")
-* CSS[CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
 ## Libraries 
 
-* Google Fonts[google-fonts](https://fonts.google.com/ "Google Fonts")
-* Font Awesome libary[font-awesome](https://fontawesome.com/ "Font Awesome")
+* [google-fonts](https://fonts.google.com/ "Google Fonts")
+* [font-awesome](https://fontawesome.com/ "Font Awesome")
 
 ## Tools 
 
