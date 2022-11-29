@@ -210,7 +210,13 @@ Default button on medium and below screen sizes:
 
 ### Gallery tiles 
 
-* The gallery section includes rectangular tyles with images that display example hair cuts that were submitted of customers 
+* The gallery section includes rectangular tyles with images that display example hair cuts that were submitted by customers
+* The tiles are include two sections:
+    * An image of the customers haircut
+    * A description of the style 
+
+![gallery-tile](assets/images/readme/gallery-tile.png)
+
 
 ### Location information 
 
