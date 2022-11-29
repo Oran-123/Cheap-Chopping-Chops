@@ -1,4 +1,4 @@
-![Cheap Chopping Chops logo](assets/images/Logo.png)
+![Cheap Chopping Chops logo](assets/images/logo.png)
 
 
 # Goal For This Project 
@@ -13,7 +13,7 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
     * [Site Owner Goals](#site-owner-goals "Site Owner Goals")
-* [Requirements and Expectations](#requirements-and-expectations "Requirements and Expectations)
+* [Requirements-and-Expectations](#requirements-and-expectations "Requirements and Expectations)
     * [Requirements](#requirements-and-expectations "Requirements")
     * [Expectations](#expectations "Expectations")
 * [Design-Choices](#design-choices "Design Choices")
@@ -119,11 +119,15 @@ The font awesome library will be used throughout the site for social media links
 
 The inspiration for the colours was taken from the red, white, and blue of a traditional barber’s bar. I used the website colourmind to aid me with the selection of the specific colour scheme. I tested the colours I originally selected on the WebAIM contract checker, and it failed the test, this can be seen here. To improve the contrast ratio, I adjusted the colours manually until the test past, the final colours which passed the test can be seen here. 
 
-* FFFFFF
-* 708FFB
-* DA1818
-* 1295DC
-* 3071F7
+| Colour      | Breakpoint                                                                     |
+| ----------- | ------------------------------------------------------------------------------ |                                                                    |
+| FFFFFF      | Background colour and font colour for inverted styles                          |
+| 708FFB      | Used for content with an inverted colour scheme i.e form, steps to book etc.   |
+| DA1818      | Used for buttons and to highlight active links                                 |
+| 1295DC      | Not used                                                                       |
+| 3071F7      | Not used                                                                       |
+
+![Cheap Chopping Chops logo](assets/images/readme/color-scheme.png)
 
 ## Structure
 
