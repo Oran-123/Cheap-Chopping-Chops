@@ -236,15 +236,23 @@ Mediun screens and below
 
 ### Booking Form  
 
-* The form on this page includes radio buttons so that users can either make a general query or a booking enquiry for a specific store 
+* The form on this page includes the following fields 
+    * Full name
+    * Email 
+    * Selector for stores
+    * Text box
+    * Submit button
 * The fields are all required fields and the email field requires the user to enter a value that follows a valid email format
 * There is also a map with a pin for each of the four stores 
-* A confirmation page is displayed after the user submits the form successfully 
+
+![booking-form](assets/images/readme/booking-form.png)
 
 ### Footer Section 
 
 * The footer contains icons which are clickable links for social media platforms 
-* There is also a page list so users can access the various pages from the footer 
+* On hover these icons are rotated on the Y-axis to give the user the impression they have jumped up 
+
+![footer-social-media-icons](assets/images/readme/social-icons.png)
 
 ## Features to be implemented 
 
@@ -253,6 +261,9 @@ Mediun screens and below
 ### Embeded google map with multiple pins 
 
 ### Hamburger menu exit button
+
+### Confirmation screen for form  
+
 
 ### Online booking system 
 
