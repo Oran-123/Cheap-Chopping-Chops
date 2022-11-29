@@ -7,6 +7,9 @@ Welcome to “Cheap Chopping Chops”. This barber is the cheapest barbers in Du
 
 This site gives examples of the hair styles our barbers spealise in, the shockingly cheap price of these haircuts and the several locations we operate from. It allows potential customer to make booking enquiries in each of our stores via the contact form.
 
+![Goals for this project image](assets/images/readme/screen-devices.png)
+
+
 # Table of Contens 
 
 * [UX](#ux "UX")
