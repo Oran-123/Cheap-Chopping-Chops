@@ -306,6 +306,30 @@ The location section consists of information on the three stores overlaying an i
 
 # Testing 
 
+I believe that the site is intuative and user friendly. There are few large empty spaces and the content of the site responds well to different screen sizes without breaking. The imgages remain clean and sharp at different resolutions. The site hamburger menu and the nav bar provide users with an intuative means to navigate the site at different screen sizes. Each section is accessible via the links in the nav bar which is fixed to the users screen. Furthermore, there are few sections with significant amounts of text, preventing the site from becoming over crowded. 
+
+During teting I encountered the following issues:
+
+* The navigating links in the hamburger menu do not work as expected on certain devices and browsers. For example, when the links are clicked on chrome the hamburger menu closes without linking the user to the specific section which they have clicked. However, on an iPhone SE using Safari the hamburger menu works as expected. 
+
+* The book now button initially had a transparent background and text shadow. This stlye was applied in an attempt to give the button a neon effect. However, it was far too dififuclt to read the text within the button when this style was applied. I decided to implement the on-hover background and font color style by default. 
+
+* The locations section initially had a flex-direction: row for all screen sizes but for devices below 992px text was overflowing the background image. I for screens smaller then 992px I set the flex-direction to be column and changed the width fromm 33% to 100" so the contnet presented vertically. With more room this prevent the contnet from overflowing the background image. 
+
+* I had issues with the header covering the section titles when clicking on a link. I applied a scroll padding top so the header did not cover section headings. 
+
+* I found that I was targeting elements rather then using IDs or Classes for some of my code. This resulted in inefficent CSS. I added an ID and Class to all elements which were targeted in my CSS.
+
+* I intially added media queries throughout my CSS. I later realised this was incorrect and positioned them in the correct sequence at the bottom of my stlye sheet. 
+
+* When I validated my HTML I found that I was repeating an ID across multiple elements in the form, I changed the ID form-field to a class. 
+
+* When I validated my CSS I found that I had commented out code which should be removed. 
+
+* I intially decided to create my site without a max widht on the content. I found that on larger screens above 1200px that the content stretched to wide and it did not present well. I applied a max-width of 1200px across several sections. 
+
+* In my wireframes I decided to have the booking form at 
+
 ## Unfixed Bugs
 
 # Deployment
