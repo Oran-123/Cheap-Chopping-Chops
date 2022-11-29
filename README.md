@@ -247,7 +247,7 @@ Mediun screens and below
 
 ![booking-form](assets/images/readme/booking-form.png)
 
-### Footer Section 
+### Social media icons  
 
 * The footer contains icons which are clickable links for social media platforms 
 * On hover these icons are rotated on the Y-axis to give the user the impression they have jumped up 
