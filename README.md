@@ -367,6 +367,7 @@ For content and style inspiration:
 * [Area9](https://www.area9.ie/ "Area9") 
 * [Waldorf Barbers](https://www.waldorfbarbers.shop/ "Waldorf Barbers") 
 * [The Barber's Bar](https://thebarbers.ie/ "The Barber's Bar") 
+* [Stackoverflow](https://stackoverflow.com/questions/4840736/easier-way-to-create-circle-div-than-using-an-image "Stackoverflow") 
 
 
 
