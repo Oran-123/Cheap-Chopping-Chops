@@ -184,9 +184,28 @@ Extra Small
 
 ![Nav bar extra small screens](assets/images/readme/navigation-bar/nav-bar-extra-smalls-screens.png)
 
+### Book Now Button
+
+* The book now button was styled so that it appears as if it illuminiscent or glowing. For large screens and up when a user hovers over the button it expands in size and a shadow effect before the button is applied. These features are applied by default on screens that are medium and below.
+
+Button without hover effect on large and above screen sizes:
+
+![Button without hover effect](assets/images/readme/button/button-without-hoever-large-plus.png)
+
+Button with hover effect on large and above screen:
+
+![Button with hover effect](assets/images/readme/button/button-with-hover-large-plus.png)
+
+Default button on medium and below screen sizes:
+
+![Default button](assets/images/readme/button/button-default-medium-and-below.png)
+
+
 ### Landing Page 
 
 * The main image on the landing page will portray the main concepts of the website. The image will be coloured and show a smiling customer who has recently had their hair cut. The image is clearly displaying a customer happy with the service and it is also immediately clear to a visitor what the purpose of the website is. 
+
+
 
 ### Book Now Section 
 
