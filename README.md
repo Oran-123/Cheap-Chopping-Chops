@@ -168,6 +168,15 @@ Large Screens and up
 
 ![Nav bar large screens and up](assets/images/readme/navigation-bar/nav-bar-large-screens.png)
 
+* on hover the menu items are underlined to make it obvious which link the user is about to click on 
+
+![Nav menu](assets/images/readme/navigation-bar/nav-menu-hover-effect.png)
+
+
+* When the user clicks a link the font color changes to red and the text is rotated on the Y-axis to give the user the impression the link moved when it was clicked
+
+![Nav menu](assets/images/readme/navigation-bar/nav-menu-active-effect.png)
+
 Small to Medium
 
 * A hamburger menu will replace the listed menu items on smaller screens to optimize screen space 
