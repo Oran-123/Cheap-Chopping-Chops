@@ -25,6 +25,7 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     color: var(--primary-blue);
+    overflow-y: hidden;
 }
 
 h1,
