@@ -350,7 +350,6 @@ header {
     height: 39.6rem;
 }
 
-/* text line clamp inspired by https://css-tricks.com/almanac/properties/l/line-clamp/ */
 
 .content {
     max-width: 16.5rem;
@@ -367,8 +366,6 @@ header {
     width: 100%;
     border-radius: 1rem;
 }
-
-/* desc section - line clamp inspired by https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css*/
 
 .description {
     color: #ffffff;
