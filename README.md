@@ -16,7 +16,7 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
     * [Site Owner Goals](#site-owner-goals "Site Owner Goals")
-* [Requirements-and-Expectations](#requirements-and-expectations "Requirements and Expectations")
+* [Requirements and Expectations](#requirements-and-expectations "Requirements and Expectations")
     * [Requirements](#Requirments "Requirements")
     * [Expectations](#expectations "Expectations")
 * [Design-Choices](#design-choices "Design Choices")
