@@ -42,7 +42,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1;
-    width: 95%;
+    width: 100%;
     background-color: var(--primary-blue);
     display: flex;
     justify-content: space-between;
@@ -154,8 +154,9 @@ header {
 }
 
 #hero-image {
-    width: 100%;
+    width: 95%;
     margin-top: 12vh;
+    overflow-x: hidden;
 
 
 
