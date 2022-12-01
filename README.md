@@ -308,8 +308,8 @@ An image of a map is included to represent where a google map could be embded.
 
 ## Libraries 
 
-* [google-fonts](https://fonts.google.com/ "Google Fonts")
-* [font-awesome](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome](https://fontawesome.com/ "Font Awesome")
 
 ## Tools 
 
@@ -319,8 +319,8 @@ An image of a map is included to represent where a google map could be embded.
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML Validation Service")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation Service")
 * [Colourmind](http://colormind.io/ "Colourmind")
-* [font-awesome](https://fontawesome.com/ "Font Awesome")
-* [google-fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Pexles](https://www.pexels.com/ "Pexles")
 * [Canva](https://www.canva.com/ "Canva")
 * [Chrome Dev Tools](http://colormind.io/ "Chrome Dev Tools")
