@@ -489,14 +489,8 @@ header {
     background: #ffffff;
     overflow: hidden;
     padding-bottom: 5rem;
-}
-
-/* Booking section content container */
-
-#booking-form-wrapper {
     margin: 0 2.5rem;
 }
-
 
 /* Contact form and Map Container */
 
@@ -602,7 +596,7 @@ label {
 
 @media only screen and (min-width:1200px) {
 
-    #booking-form-wrapper {
+    #booking-form {
         display: flex;
         flex-direction: column;
         align-items: center;
