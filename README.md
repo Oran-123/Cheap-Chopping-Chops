@@ -90,17 +90,17 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 
 # Design Choices 
 
-## Inspiration 
+## Inspiration  
  
-1.  https://samsbarbers.com/ 
+1.  [Sam's Barbers](https://samsbarbers.com/  "Sam's Barbers") 
 * The fixed nav bar will be used to allow users to access pages at any point of the site, but the background colour will be solid and not transparent so the text is always visible 
 * The social media icons will be included in header 
 
-2. https://www.area9.ie/
+2. [Area9](https://www.area9.ie/ "Area9") 
 * The sections on the page store will be similar to the sections used to provide examples of the different styles 
 * Fixed nav bar with solid background colour so text is always visible 
 
-3. https://www.waldorfbarbers.shop/
+3. [Waldorf Barbers](https://www.waldorfbarbers.shop/ "Waldorf Barbers") 
 * Parallax on the hero image will be used as seen on this site 
 * The colour scheme will be like this site 
 
