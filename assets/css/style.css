@@ -501,7 +501,7 @@ header {
 
 /* Booking form style */
 
-#Form {
+#form {
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
