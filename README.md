@@ -53,13 +53,13 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 
 ## User Stories 
 
-* As a visitor, I want to understand the purpose of the website, which is that the barbers offers very cheap chops 
-* As a visitor, I want to understand the main services on offer, including their cost
-* As a visitor, I want to see examples of the styles I can request
-* As a visitor, I want to easily find the different locations 
-* As a visitor, I want to intuitively navigate through the content 
-* As a first-time visitor, I want to join the newsletter so that I can avail of offers 
-* As a visitor, I want to make enquires to book a service in a specific store 
+* As a user, I want to understand the purpose of the website, which is that the barbers offers very cheap chops 
+* As a user, I want to understand the main services on offer, including their cost
+* As a user, I want to see examples of the styles I can request
+* As a user, I want to easily find the different locations 
+* As a user, I want to intuitively navigate through the content 
+* As a first-time user, I want to join the newsletter so that I can avail of offers 
+* As a user, I want to make enquires to book a service in a specific store 
 
 ## Site Owner Goals 
 
