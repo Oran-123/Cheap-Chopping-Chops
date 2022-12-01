@@ -196,6 +196,12 @@ The navigation bar will be fixed so it is always visible on screen. The navigati
 
 ### Hamburger Menu
 
+The hamburger menu applies only to screns which are mediun and below. 
+
+When the hamburger menu is in focus a transition is applied which causes the white lines to rotate. 
+
+After clicking the hamburger menu the navigation links will be visible. 
+
 
 ### Book Now Button
 
