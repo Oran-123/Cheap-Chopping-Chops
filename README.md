@@ -263,8 +263,11 @@ This section includes instructions on how  to book an appointment.
 
 On small and extra small screens the three steps are displayed vertically 
 
+![how-to-book-large](assets/images/readme/how-to-book/how-to-book-medium-below.png)
+
 On screen sizes above medium the three steps are displayed horizontally 
 
+![how-to-book-large](assets/images/readme/how-to-book/how-to-book-large-plus.png)
 
 ### Booking Form  
 
