@@ -251,6 +251,12 @@ The location section consists of information on the three stores overlaying an i
 
 ### How to book steps   
 
+This section includes instructions on how  to book an appointment. 
+
+On small and extra small screens the three steps are displayed vertically 
+
+On screen sizes above medium the three steps are displayed horizontally 
+
 
 ### Booking Form  
 
