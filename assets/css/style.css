@@ -55,13 +55,13 @@ header {
     height: 12vh;
 }
 
-#logo-text {
+.logo-text {
     display: none;
 }
 
 /* hamburger menu specific to mobile devices (<577px), inspired by https://www.youtube.com/watch?v=xXze-haVm7ghttps://www.youtube.com/watch?v=xXze-haVm7g*/
 
-#nav-menu {
+.nav-menu {
 
     width: 4rem;
     height: 2.5rem;
@@ -636,7 +636,7 @@ label {
 
 @media only screen and (min-width:992px) {
 
-    #nav-menu {
+    .nav-menu {
         width: fit-content;
         height: 100%;
         border-radius: 0;
@@ -821,16 +821,16 @@ label {
         justify-content: space-evenly;
     }
 
-    #logo-text-link{
+    .logo-text-link{
         text-decoration: none;
         color: #ffffff;
     }
-    #logo-text {
+    .logo-text {
         display: block;
         color: #ffffff;
     }
 
-    #nav-menu {
+    .nav-menu {
         margin: 0 1rem;
     }
 
