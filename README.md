@@ -327,6 +327,12 @@ An image of a map is included to represent where a google map could be embded.
 * [SauceLabs](https://saucelabs.com/platform/mobile-emulators-and-simulators "SauceLabs")
 
 # Testing 
+## Tests
+### WC3 Markup Validator 
+### WC3 CSS Validator 
+### Light house test 
+### Contrast test  
+## Bugs 
 
 I believe that the site is intuative and user friendly. There are few large empty spaces and the content of the site responds well to different screen sizes without breaking. The imgages remain clean and sharp at different resolutions. The site hamburger menu and the nav bar provide users with an intuative means to navigate the site at different screen sizes. Each section is accessible via the links in the nav bar which is fixed to the users screen. Furthermore, there are few sections with significant amounts of text, preventing the site from becoming over crowded. 
 
