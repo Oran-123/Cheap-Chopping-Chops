@@ -227,9 +227,14 @@ Button with hover effect on large and above screen amd default button on medium 
 
 The about us section gives a brief overview of the brand, its goals and the owner. 
 
+![about-us](assets/images/readme/about-us.png)
+
+
 ### Price List 
 
 The price list section includes a list of services and their associated prices 
+
+![price-list](assets/images/readme/price-list.png)
 
 ### Gallery tiles 
 
@@ -287,6 +292,8 @@ On submission of the form the user is brought to a page confirming that there de
 ### Map    
 
 An image of a map is included to represent where a google map could be embded. 
+
+![google-maps](assets/images/readme/map.png)
 
 ### Social media icons  
 
