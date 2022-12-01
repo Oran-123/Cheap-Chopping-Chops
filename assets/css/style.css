@@ -59,7 +59,6 @@ header {
     display: none;
 }
 
-
 /* hamburger menu specific to mobile devices (<577px), inspired by https://www.youtube.com/watch?v=xXze-haVm7ghttps://www.youtube.com/watch?v=xXze-haVm7g*/
 
 #nav-menu {
@@ -103,8 +102,6 @@ header {
     margin: 2vh 0;
     pointer-events: auto;
 }
-
-
 
 /* hamburger menu design */
 #nav-menu:before,
@@ -158,8 +155,6 @@ header {
     width: 95%;
     margin-top: 12vh;
     overflow-x: hidden;
-
-
 
     /* zoom effect as seen in love running */
 
@@ -225,14 +220,12 @@ header {
     align-items: center;
 }
 
-
 #about-us-content {
     margin: 0rem 5rem;
     text-align: center;
     padding-bottom: 5rem;
 
 }
-
 
 .about-us-text {
     margin: 2rem 0rem;
@@ -339,7 +332,6 @@ header {
     justify-content: flex-start;
 }
 
-
 /* style of tiles which include customer image and description */
 
 .container-gallery-tile {
@@ -351,7 +343,6 @@ header {
     box-shadow: 0 0 1.2rem var(--accent-blue);
     height: 39.6rem;
 }
-
 
 .content {
     max-width: 16.5rem;
@@ -394,8 +385,6 @@ header {
     overflow: hidden;
 }
 
-
-
 /* store location information  */
 
 .store-locations {
@@ -436,8 +425,6 @@ header {
     flex-direction: column;
     align-items: center;
 }
-
-
 
 /* Circles for each step as inspired by https://stackoverflow.com/questions/4840736/easier-way-to-create-circle-div-than-using-an-image */
 
@@ -499,8 +486,6 @@ header {
     flex-direction: column;
     align-items: center;
 }
-
-
 
 /* Booking form background */
 
@@ -747,7 +732,6 @@ label {
         width: 50%;
     }
 
-
     #location-section-title {
         padding-top: 2rem;
     }
@@ -775,7 +759,6 @@ label {
 
     }
 }
-
 
 @media only screen and (min-width:768px) {
 
