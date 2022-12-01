@@ -273,7 +273,6 @@ On screen sizes above medium the three steps are displayed horizontally
 
 On submission of the form the user is brought to a page confirming that there details were succesfully submitted 
 
-
 ### Map    
 
 An image of a map is included to represent where a google map could be embded. 
@@ -287,11 +286,10 @@ An image of a map is included to represent where a google map could be embded.
 
 ## Features to be implemented 
 
-* Hamburger menu exit button
-* Embeded google map with multiple pins 
-* Hamburger menu exit button
-* Confirmation screen for form  
-* Online booking system 
+* Hamburger menu exit button, without the use of JS the hamburger menu will not close until a user clicks a link. A button that allows users to exit the menu screen will improve the user experience. 
+* Embeded google map with multiple pins
+* calendar to check availability of bokkings 
+* payment system 
 
 # Technologies 
 
