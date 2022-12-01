@@ -356,6 +356,17 @@ The site CSS was tested but no errors were idetnfieid
 ![no-errors](assets/images/readme/No-errors.png)
 
 ### Light house test 
+
+![lighthouse-test-results](assets/images/readme/lighthouse-test/mobile%20test.png)
+
+Accessibility 
+
+![lighthouse-test-results](assets/images/readme/lighthouse-test/mobile-accessibility-errors.png)
+
+Best Practices 
+
+![lighthouse-test-results](assets/images/readme/lighthouse-test/mobile-best-practice-errors.png)
+
 ### Contrast test  
 ## Bugs 
 
