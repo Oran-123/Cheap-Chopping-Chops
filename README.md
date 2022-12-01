@@ -271,8 +271,12 @@ On screen sizes above medium the three steps are displayed horizontally
 
 ![booking-form](assets/images/readme/booking-form.png)
 
+On submission of the form the user is brought to a page confirming that there details were succesfully submitted 
+
+
 ### Map    
 
+An image of a map is included to represent where a google map could be embded. 
 
 ### Social media icons  
 
