@@ -5,7 +5,7 @@
 
 Welcome to “Cheap Chopping Chops”. This barber is the cheapest barbers in Dublin offering all styles from skin fades to quick trims. 
 
-This site gives examples of the hair styles our barbers spealise in, the shockingly cheap price of these haircuts and the several locations we operate from. It allows potential customer to make booking enquiries in each of our stores via the contact form.
+This site gives examples of the hair styles our barbers specialise in, the shockingly cheap price of these haircuts and the several locations we operate from. It allows potential customer to make booking enquiries in each of our stores via the contact form.
 
 ![Goals for this project image](assets/images/readme/screen-devices.png)
 
@@ -53,7 +53,7 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 
 ## User Stories 
 
-* As a user, I want to understand the purpose of the website, which is that the barbers offers very cheap chops 
+* As a user, I want to understand the purpose of the website, which is that the barbers offer very cheap chops 
 * As a user, I want to understand the main services on offer, including their cost
 * As a user, I want to see examples of the styles I can request
 * As a user, I want to easily find the different locations 
@@ -82,18 +82,18 @@ This site gives examples of the hair styles our barbers spealise in, the shockin
 ## Expectations 
 
 * I expect to know that my booking enquiry was submitted successfully 
-* I expect that links to all of the social media open in a new tab
+* I expect that links to all the social media open in a new tab
 * I expect all content to be accurate and without grammar mistakes
 * I expect to receive a discount code for joining the waitlist 
 * I expect the site to be responsive and for the quality not to be impacted by the different screen sizes 
-* I expect to be able to navigate to all of the pages via the navigation bar i.e., links work correctly 
+* I expect to be able to navigate to all the pages via the navigation bar i.e., links work correctly 
 
 # Design Choices 
 
 ## Inspiration  
  
 1.  [Sam's Barbers](https://samsbarbers.com/  "Sam's Barbers") 
-* The fixed nav bar will be used to allow users to access pages at any point of the site, but the background colour will be solid and not transparent so the text is always visible 
+* The fixed nav bar will be used to allow users to access pages at any point of the site, but the background colour will be solid and not transparent, so the text is always visible 
 * The social media icons will be included in header 
 
 2. [Area9](https://www.area9.ie/ "Area9") 
@@ -116,7 +116,7 @@ Again, a less serious image portrays a more approach, less premium brand and wit
 
 ## Icons
 
-The font awesome library will be used throughout the site for social media links, to provide visual aides for section headers, contact links, navigation links, and more. All icons will be consistent with the fun, approachable design of the brand. 
+The font awesome library will be used throughout the site for social media links, to provide visual aids for section headers, contact links, navigation links, and more. All icons will be consistent with the fun, approachable design of the brand. 
 
 ## Colours 
 
@@ -144,9 +144,9 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 
 # Wireframes 
 
-I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the desktop version of the wireframes and then scalled it up down for both tablet and mobile versions. 
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the desktop version of the wireframes and then scaled  it up down for both tablet and mobile versions. 
 
-Because it is both a requirement and a site owner goal  to encourage booking enquires I have added two CTAs in the intial sections of the site. Furthermore, because this is a one-page website the user is forced to scroll through all of the site content before they reach the booking form at the bottom of the page. Therfore, they are more likely to make a booking after consuming all of the information on the site.  
+Because it is both a requirement and a site owner goal to encourage booking enquires I have added two CTAs in the initial  sections of the site. Furthermore, because this is a one-page website the user is forced to scroll through all the site content before they reach the booking form at the bottom of the page. Therefore, they are more likely to make a booking after consuming all the information on the site.  
 
 The wireframes are below:
 
@@ -161,6 +161,7 @@ The wireframes are below:
 ### Navigation Bar 
 
 The navigation bar includes a logo which will have an embedded link to the home page, and a menu for users to navigate throughout the site. 
+
 The navigation bar will be fixed so it is always visible on screen. The navigation bar will be fully responsive on different screen sizes. 
 
 #### Large Screens and up
@@ -171,7 +172,7 @@ The navigation bar will be fixed so it is always visible on screen. The navigati
 
 ![Nav bar large screens and up](assets/images/readme/navigation-bar/nav-bar-large-screens.png)
 
-* on hover the menu items are underlined to make it obvious which link the user is about to click on 
+* On hover the menu items are underlined to make it obvious which link the user is about to click on 
 
 ![Nav menu](assets/images/readme/navigation-bar/nav-menu-hover-effect.png)
 
@@ -196,7 +197,7 @@ The navigation bar will be fixed so it is always visible on screen. The navigati
 
 ### Hamburger Menu
 
-The hamburger menu applies only to screns which are mediun and below. 
+The hamburger menu applies only to screens which are medium and below. 
 
 ![hamburger-menu-out-of-focus](assets/images/readme/navigation-bar/hamburger-menu-out-of-focus.png)
 
@@ -204,19 +205,19 @@ When the hamburger menu is in focus a transition is applied which causes the whi
 
 ![hamburger-menu-in-of-focus](assets/images/readme/navigation-bar/hamburger-menu-in-focus.png)
 
-After clicking the hamburger menu the navigation links will be visible. 
+After clicking the hamburger menu, the navigation links will be visible. 
 
 
 ### Book Now Button
 
-* The book now button was styled so that it appears as if it illuminiscent or glowing. For large screens and up when a user hovers over the button it expands in size and a shadow effect before the button is applied. These features are applied by default on screens that are medium and below.
+* The book now button was styled so that it appears as if it luminescent  or glowing. For large screens and up when a user hovers over the button it expands in size and a shadow effect before the button is applied. These features are applied by default on screens that are medium and below.
 
 Button without hover effect on large and above screen sizes:
 
 ![Button without hover effect](assets/images/readme/button/button-without-hoever-large-plus.png)
 
 
-Button with hover effect on large and above screen amd default button on medium and below screen sizes:
+Button with hover effect on large and above screen and default button on medium and below screen sizes:
 
 ![Default button](assets/images/readme/button/button-default-medium-and-below.png)
 
@@ -242,8 +243,8 @@ The price list section includes a list of services and their associated prices
 
 ### Gallery tiles 
 
-* The gallery section includes rectangular tyles with images that display example hair cuts that were submitted by customers
-* The tiles are include two sections:
+* The gallery section includes rectangular tyles with images that display example haircuts that were submitted by customers
+* The tiles include two sections:
     * An image of the customers haircut
     * A description of the style 
 
@@ -268,7 +269,7 @@ The location section consists of information on the three stores overlaying an i
 
 ### How to book steps   
 
-This section includes instructions on how  to book an appointment. 
+This section includes instructions on how to book an appointment. 
 
 On small and extra small screens the three steps are displayed vertically 
 
@@ -291,11 +292,11 @@ On screen sizes above medium the three steps are displayed horizontally
 
 ![booking-form](assets/images/readme/booking-form.png)
 
-On submission of the form the user is brought to a page confirming that there details were succesfully submitted 
+On submission of the form the user is brought to a page confirming that there details were successfully  submitted 
 
 ### Map    
 
-An image of a map is included to represent where a google map could be embded. 
+An image of a map is included to represent where a google map could be embed. 
 
 ![google-maps](assets/images/readme/map.png)
 
@@ -308,10 +309,10 @@ An image of a map is included to represent where a google map could be embded.
 
 ## Features to be implemented 
 
-* Hamburger menu exit button, without the use of JS the hamburger menu will not close until a user clicks a link. A button that allows users to exit the menu screen will improve the user experience. 
-* Embeded google map with multiple pins
-* calendar to check availability of bokkings 
-* payment system 
+* An exit button for the hamburger menu. Without the use of Java Script the hamburger menu will not close until a user clicks a link. A button that allows users to exit the menu screen will improve the user experience. 
+* Embedded  google map with multiple pins
+* Calendar to check availability of bookings  
+* Payment system 
 
 # Technologies 
 
@@ -345,7 +346,7 @@ An image of a map is included to represent where a google map could be embded.
 ## Tests
 ### WC3 Markup Validator 
 
-The following bugs were identified and resolved svia the the WC3 Markup Validator:
+The following bugs were identified and resolved via the WC3 Markup Validator:
 
 ![error-1](assets/images/readme/wc3-markup-validator-errors/error-1.png)
 
@@ -369,7 +370,7 @@ After each error was addressed the test was run again and a pass result was achi
 
 ### WC3 CSS Validator 
 
-The site CSS was tested but no errors were idetnfieid 
+The site CSS was tested but no errors were identified  
 
 ![no-errors](assets/images/readme/No-errors.png)
 
@@ -387,7 +388,7 @@ Best Practices
 
 ### WebAim Contrast Test 
 
-Intially one of the accent colors was set as #708FFB and was used for the background color for inverted elements i.e. the booking form, the gallery tiles and the how to book section. 
+Initially  one of the accent colors was set as #708FFB and was used for the background color for inverted elements i.e. the booking form, the gallery tiles and the how to book section. 
 
 Due to this color not having a strong enough contrast with #ffffff accessibility errors were identified during the light house test. 
 
@@ -404,29 +405,29 @@ I decided to remove #708FFB from the color palete and use the primary blue throu
 
 ## Bugs 
 
-I believe that the site is intuative and user friendly. There are few large empty spaces and the content of the site responds well to different screen sizes without breaking. The imgages remain clean and sharp at different resolutions. The site hamburger menu and the nav bar provide users with an intuative means to navigate the site at different screen sizes. Each section is accessible via the links in the nav bar which is fixed to the users screen. Furthermore, there are few sections with significant amounts of text, preventing the site from becoming over crowded. 
+I believe that the site is intuitive  and user friendly. There are few large empty spaces, and the content of the site responds well to different screen sizes without breaking. The images  remain clean and sharp at different resolutions. The site hamburger menu and the nav bar provide users with an intuitive  means to navigate the site at different screen sizes. Each section is accessible via the links in the nav bar which is fixed to the user's screen. Furthermore, there are few sections with significant amounts of text, preventing the site from becoming overcrowded. 
 
-During teting I encountered the following issues:
+During testing I encountered the following bugs:
 
 * The navigating links in the hamburger menu do not work as expected on certain devices and browsers. For example, when the links are clicked on chrome the hamburger menu closes without linking the user to the specific section which they have clicked. However, on an iPhone SE using Safari the hamburger menu works as expected. 
 
-* The book now button initially had a transparent background and text shadow. This stlye was applied in an attempt to give the button a neon effect. However, it was far too dififuclt to read the text within the button when this style was applied. I decided to implement the on-hover background and font color style by default. 
+* The book now button initially had a transparent background and text shadow. This style was applied to give the button a neon effect. However, it was far too difficult  to read the text within the button when this style was applied. I decided to implement the on-hover background and font color style by default. 
 
-* The locations section initially had a flex-direction: row for all screen sizes but for devices below 992px text was overflowing the background image. I for screens smaller then 992px I set the flex-direction to be column and changed the width fromm 33% to 100" so the contnet presented vertically. With more room this prevent the contnet from overflowing the background image. 
+* The locations section initially had a flex-direction: row for all screen sizes but for devices below 992px text was overflowing the background image. For screens smaller then 992px I set the flex-direction to be column and changed the width from 33% to 100% so the content  presented vertically. With more room this prevent the content from overflowing the background image. 
 
-* I had issues with the header covering the section titles when clicking on a link. I applied a scroll padding top so the header did not cover section headings. 
+* I had issues with the header covering the section titles when clicking on a link. I applied a scroll padding top, so the header did not cover section headings. 
 
-* I found that I was targeting elements rather then using IDs or Classes for some of my code. This resulted in inefficent CSS. I added an ID and Class to all elements which were targeted in my CSS.
+* I found that I was targeting elements rather than using IDs or Classes for some of my code. This resulted in inefficient  CSS. I added an ID and Class to all elements which were targeted in my CSS.
 
-* I intially added media queries throughout my CSS. I later realised this was incorrect and positioned them in the correct sequence at the bottom of my stlye sheet. 
+* I initially  added media queries throughout my CSS. I later realised this was incorrect and positioned them in the correct sequence at the bottom of my style  sheet. 
 
-* When I validated my HTML I found that I was repeating an ID across multiple elements in the form, I changed the ID form-field to a class. 
+* When I validated my HTML, I found that I was repeating an ID across multiple elements in the form, I changed the ID form-field to a class. 
 
-* When I validated my CSS I found that I had commented out code which should be removed. 
+* When I validated my CSS, I found that I had commented out code which should be removed. 
 
-* I intially decided to create my site without a max widht on the content. I found that on larger screens above 1200px that the content stretched to wide and it did not present well. I applied a max-width of 1200px across several sections. 
+* I initially  decided to create my site without a max width  on the content. I found that on larger screens above 1200px that the content stretched to wide and it did not present well. I applied a max-width of 1200px across several sections. 
 
-* I origianlly used a line clamp for the text in the gallery tiles but this prevented all of the text from being displayed. I removed this line clamp and applied a fix height to all of the tiles. 
+* I originally  used a line clamp for the text in the gallery tiles but this prevented all of the text from being displayed. I removed this line clamp and applied a fix height to all the tiles. 
 
 ## Unfixed Bugs
 
@@ -435,18 +436,18 @@ During teting I encountered the following issues:
 
 # Deployment
 
-After the code for this website was written, committed and pushed to github, it was then deployed using GitHub by following the below steps:
+After the code for this website was written, committed and pushed to GitHub, it was then deployed using GitHub by following the below steps:
 
 * Open Github
 * Navigate to the repository on GitHub using the search bar
 * Within the repository click "settings"
 * On the settings tab click "Pages" on the side navigation 
-* For the sourse dropdown select "Deploy from branch"
+* For the source dropdown select "Deploy from branch"
 * In the branch section select "Main" on the first drop down menu 
 * In the branch section select "/(root)" on the second drop down menu
 * Then press save 
 * Now the website is live on https://oran-123.github.io/Cheap-Chopping-Chops/#price
-* If any changes are required they can be written, committed and pushed to GitHub. The website will update shortly after the commits are pushed.
+* If any changes are required, they can be written, committed, and pushed to GitHub. The website will update shortly after the commits are pushed.
 
 # Credits 
 
