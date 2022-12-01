@@ -579,6 +579,19 @@ label {
     font-size: 140%;
 }
 
+/* Confirmation message */
+
+#confirmation-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5rem;
+    background-color: var(--primary-blue);
+    width: fit-content;
+    box-shadow: 0 0 1.6rem var(--accent-blue);
+    border-radius: .5rem;
+}
+
 @media only screen and (min-width:1200px) {
 
     #booking-form {
