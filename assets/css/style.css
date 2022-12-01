@@ -581,19 +581,37 @@ label {
 
 /* Confirmation message */
 
+#confirmation-message-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18.5rem;
+}
+
 #confirmation-message-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2.5rem;
+    justify-content: space-between;
     background-color: var(--primary-blue);
-    width: fit-content;
-    box-shadow: 0 0 1.6rem var(--accent-blue);
+    box-shadow: 0 0 1.6rem var(--primary-blue);
     border-radius: .5rem;
+    width: 50%;
+    margin-top:5rem;
 }
 
 .confirmation-message{
     color: #ffffff;
+    padding: 2.5rem 5rem;
+    text-align: center;
+}
+
+.thank-you-footer{
+    position: absolute;
+    bottom: 0;
 }
 @media only screen and (min-width:1200px) {
 
