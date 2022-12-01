@@ -150,9 +150,9 @@ Because it is both a requirement and a site owner goal  to encourage booking enq
 
 The wireframes are below:
 
-### [Desktop Wireframe](assets/css/wireframes/Desktop.pdf "Desktop wireframe")
-### [Tablet Wireframe](assets/css/wireframes/Tablet.pdf "Tablet wireframe")
-### [Phone Wireframe](assets/css/wireframes/Phone.pdf "Phone wireframe")
+### [Desktop Wireframe](docs/wireframes/Desktop.pdf "Desktop wireframe")
+### [Tablet Wireframe](docs/wireframes/Tablet.pdf "Tablet wireframe")
+### [Phone Wireframe](docs/wireframes/Phone.pdf "Phone wireframe")
 
 # Features 
 
