@@ -198,7 +198,11 @@ The navigation bar will be fixed so it is always visible on screen. The navigati
 
 The hamburger menu applies only to screns which are mediun and below. 
 
+![hamburger-menu-out-of-focus](assets/images/readme/navigation-bar/hamburger-menu-out-of-focus.png)
+
 When the hamburger menu is in focus a transition is applied which causes the white lines to rotate. 
+
+![hamburger-menu-in-of-focus](assets/images/readme/navigation-bar/hamburger-menu-in-focus.png)
 
 After clicking the hamburger menu the navigation links will be visible. 
 
