@@ -349,6 +349,9 @@ The following bugs were identified and resolved svia the the WC3 Markup Validato
 
 ![error-8](assets/images/readme/wc3-markup-validator-errors/error-8.png)
 
+After each error was addressed the test was run again and a pass result was achieved:
+
+![pass-result](assets/images/readme/wc3-markup-validator-errors/passed-test.png)
 
 ### WC3 CSS Validator 
 
