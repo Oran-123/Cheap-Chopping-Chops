@@ -223,6 +223,14 @@ Button with hover effect on large and above screen amd default button on medium 
 
 ![hero-image](assets/images/readme/hero-image-readme.png)
 
+### About Us Section
+
+The about us section gives a brief overview of the brand, its goals and the owner. 
+
+### Price List 
+
+The price list section includes a list of services and their associated prices 
+
 ### Gallery tiles 
 
 * The gallery section includes rectangular tyles with images that display example hair cuts that were submitted by customers
