@@ -330,7 +330,7 @@ An image of a map is included to represent where a google map could be embded.
 ## Tests
 ### WC3 Markup Validator 
 
-The following errors were identified via the the WC3 Markup Validator:
+The following bugs were identified and resolved svia the the WC3 Markup Validator:
 
 ![error-1](assets/images/readme/wc3-markup-validator-errors/error-1.png)
 
@@ -350,6 +350,11 @@ The following errors were identified via the the WC3 Markup Validator:
 
 
 ### WC3 CSS Validator 
+
+The site CSS was tested but no errors were idetnfieid 
+
+![no-errors](assets/images/readme/No-errors.png)
+
 ### Light house test 
 ### Contrast test  
 ## Bugs 
