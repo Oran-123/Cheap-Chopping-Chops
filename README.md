@@ -205,11 +205,8 @@ Button without hover effect on large and above screen sizes:
 
 ![Button without hover effect](assets/images/readme/button/button-without-hoever-large-plus.png)
 
-Button with hover effect on large and above screen:
 
-![Button with hover effect](assets/images/readme/button/button-with-hover-large-plus.png)
-
-Default button on medium and below screen sizes:
+Button with hover effect on large and above screen amd default button on medium and below screen sizes:
 
 ![Default button](assets/images/readme/button/button-default-medium-and-below.png)
 
