@@ -566,7 +566,7 @@ label {
 
 #social-icons-list {
     text-align: center;
-    margin: 2.5rem;
+    padding: 2.5rem;
 }
 
 .social-icons-list-item {
@@ -611,6 +611,7 @@ label {
     width: 50%;
     margin-top:5rem;
     min-width: 25rem;
+    max-width: 120rem;
 }
 
 .confirmation-message{
