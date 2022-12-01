@@ -592,6 +592,9 @@ label {
     border-radius: .5rem;
 }
 
+.confirmation-message{
+    color: #ffffff;
+}
 @media only screen and (min-width:1200px) {
 
     #booking-form {
