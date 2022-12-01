@@ -368,7 +368,23 @@ Best Practices
 
 ![lighthouse-test-results](assets/images/readme/lighthouse-test/mobile-best-practice-errors.png)
 
-### Contrast test  
+### WebAim Contrast Test 
+
+Intially one of the accent colors was set as #708FFB and was used for the background color for inverted elements i.e. the booking form, the gallery tiles and the how to book section. 
+
+Due to this color not having a strong enough contrast with #ffffff accessibility errors were identified during the light house test. 
+
+This issue was confirmed by running the two colors through WebAim's contrast test
+
+![web-aim-test-results](assets/images/readme/webaim-contrast-test/failed-test.png)
+
+I decided to remove #708FFB from the color palete and use the primary blue throughout the site #0A4BCD, which passed the contrast checker
+
+
+![web-aim-test-results](assets/images/readme/webaim-contrast-test/passed-test.png)
+
+
+
 ## Bugs 
 
 I believe that the site is intuative and user friendly. There are few large empty spaces and the content of the site responds well to different screen sizes without breaking. The imgages remain clean and sharp at different resolutions. The site hamburger menu and the nav bar provide users with an intuative means to navigate the site at different screen sizes. Each section is accessible via the links in the nav bar which is fixed to the users screen. Furthermore, there are few sections with significant amounts of text, preventing the site from becoming over crowded. 
