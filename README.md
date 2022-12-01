@@ -329,6 +329,26 @@ An image of a map is included to represent where a google map could be embded.
 # Testing 
 ## Tests
 ### WC3 Markup Validator 
+
+The following errors were identified via the the WC3 Markup Validator:
+
+![error-1](assets/images/readme/wc3-markup-validator-errors/error-1.png)
+
+![error-2](assets/images/readme/wc3-markup-validator-errors/error-2.png)
+
+![error-3](assets/images/readme/wc3-markup-validator-errors/error-3.png)
+
+![error-4](assets/images/readme/wc3-markup-validator-errors/error-4.png)
+
+![error-5](assets/images/readme/wc3-markup-validator-errors/error-5.png)
+
+![error-6](assets/images/readme/wc3-markup-validator-errors/error-6.png)
+
+![error-7](assets/images/readme/wc3-markup-validator-errors/error-7.png)
+
+![error-8](assets/images/readme/wc3-markup-validator-errors/error-8.png)
+
+
 ### WC3 CSS Validator 
 ### Light house test 
 ### Contrast test  
